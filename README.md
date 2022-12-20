@@ -1,2 +1,3 @@
 # dessert-vscode-theme
-A dark theme for Visual Studio Code
+
+A dark color theme for Visual Studio Code
