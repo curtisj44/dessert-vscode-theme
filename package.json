@@ -1,0 +1,25 @@
+{
+  "name": "dessert",
+  "displayName": "Dessert",
+  "description": "A dark color theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dessert",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dessert-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/curtisj44/dessert-vscode-theme"
+  }
+}
