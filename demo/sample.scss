@@ -58,23 +58,46 @@ body {
 }
 
 div[role="main"] {
+  color: rgba(0, 0, 255, 0.5);
+  cursor: pointer;
+  margin-bottom: 25px;
+  background: linear-gradient(#e66465, #9198e5);
+
   @include background-image(
     linear-gradient(lighten($color1, 30%), lighten($color2, 30%))
   );
 
   @include border-radius($border-radius * 3.5, $border-radius * 3.5);
 
-  border: 3px solid rgba(0, 0, 255, 0.5);
-  border-color: $color2;
+  border: 3px solid $color2;
   padding: $border-radius;
-  margin-bottom: 25px;
 
   li {
     color: $fontcolor1;
     margin-bottom: 12px;
+    cursor: pointer;
   }
 }
 
 button {
   @include buttons();
+}
+
+@mixin buttons($basicBorder: 1px, $gradient1: #fff, $gradient2: #d8dee7) {
+  button {
+    border: $basicBorder solid #acbed3;
+    @include background-image(linear-gradient($gradient1, $gradient2));
+    padding: 3px 14px;
+    @include border-radius($border-radius, $border-radius);
+
+    &.primary {
+      @include border-radius($border-radius + 2, $border-radius + 2);
+    }
+    & > .disabled {
+      opacity: 0.8;
+    }
+    &:hover span {
+      @include background-image(linear-gradient($gradient2, $gradient1));
+    }
+  }
 }

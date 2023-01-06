@@ -12,6 +12,12 @@ body {
   background: #000;
 }
 
+body > #container {
+  text-align: left;
+  margin: 0 auto;
+  width: 500px;
+}
+
 @media (min-width: 1234px) {
   body {
     background: var(--background);
@@ -54,6 +60,8 @@ body {
 }
 
 div[role="main"] {
-  border: 3px solid rgba(0, 0, 255, 0.5);
+  color: rgba(0, 0, 255, 0.5);
+  cursor: pointer;
   margin-bottom: 25px;
+  background: linear-gradient(#e66465, #9198e5);
 }
