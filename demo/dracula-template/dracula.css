@@ -20,6 +20,10 @@ body {
   font-family: "Transylvania";
   height: calc(var(--deathDate) - var(--birthDate));
 }
+#dracula:before,
+#dracula:after {
+  content: "This is a test";
+}
 
 .cape {
   background: #ff0000 !important;
