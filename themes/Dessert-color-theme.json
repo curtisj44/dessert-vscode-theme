@@ -1,5 +1,6 @@
 {
   "name": "Dessert",
+  "type": "dark",
 
   // https://code.visualstudio.com/api/references/theme-color
   "colors": {
