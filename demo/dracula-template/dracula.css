@@ -52,3 +52,8 @@ body {
     transform: translateX(100%);
   }
 }
+
+div[role="main"] {
+  border: 3px solid rgba(0, 0, 255, 0.5);
+  margin-bottom: 25px;
+}

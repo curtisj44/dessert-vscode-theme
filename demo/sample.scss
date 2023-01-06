@@ -1,3 +1,13 @@
+/*
+ * Once upon a time...
+ */
+
+:root {
+  --birthDate: 1428px;
+  --deathDate: 1476px;
+  --background: #fff;
+}
+
 body {
   background: #000;
 
@@ -12,24 +22,53 @@ body {
   }
 }
 
-header {
-  h1 {
-    font-size: 26px;
-    margin-bottom: 26px;
+/* ...there was a guy named Vlad */
+
+#dracula {
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+  font-family: Transylvania, "Times New Roman", sans-serif, monospace;
+  height: calc(var(--deathDate) - var(--birthDate));
+}
+#dracula:before,
+#dracula:after {
+  content: "This is a test";
+}
+
+.cape {
+  background: #ff0000 !important;
+}
+
+@font-face {
+  font-family: "Transylvania";
+  src: url("/location/Transylvania.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
   }
 }
+
 div[role="main"] {
   @include background-image(
     linear-gradient(lighten($color1, 30%), lighten($color2, 30%))
   );
+
   @include border-radius($border-radius * 3.5, $border-radius * 3.5);
-  border: 3px solid $color2;
+
+  border: 3px solid rgba(0, 0, 255, 0.5);
+  border-color: $color2;
   padding: $border-radius;
   margin-bottom: 25px;
 
-  ul {
-    padding-top: 14px;
-  }
   li {
     color: $fontcolor1;
     margin-bottom: 12px;
@@ -37,6 +76,5 @@ div[role="main"] {
 }
 
 button {
-  //leverages the buttons mixin
   @include buttons();
 }
