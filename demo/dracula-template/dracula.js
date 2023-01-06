@@ -20,8 +20,16 @@ class Vampire {
 
 // ...there was a guy named Vlad
 const Dracula = new Vampire({
-  location: 'Transylvania',
+  location: "Transylvania",
   birthDate: 1428,
   deathDate: 1476,
-  weaknesses: ['Sunlight', 'Garlic']
+  weaknesses: ["Sunlight", "Garlic"],
 });
+
+/**
+ * Represents a book.
+ * @constructor
+ * @param {string} title - The title of the book.
+ * @param {string} author - The author of the book.
+ */
+function Book(title, author) {}
