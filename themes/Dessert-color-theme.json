@@ -348,6 +348,17 @@
       }
     },
 
+    // TODO: this doesn't work
+    // {
+    //   "name": "Sass - `cursor` and `content` properties are incorrectly identified as tag names",
+    //   "scope": [
+    //     "entity.name.tag.css meta.property-list.scss meta.property-list.scss source.css.scss"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#ff0000"
+    //   }
+    // },
+
     {
       "name": "CSS - property name",
       "scope": ["meta.property-list.css", "support.type.property-name.css"],
@@ -394,7 +405,7 @@
     },
 
     {
-      "name": "CSS - !important",
+      "name": "CSS - `!important`",
       "scope": ["keyword.other.important"],
       "settings": {
         "foreground": "#D21932"
@@ -402,8 +413,9 @@
     },
 
     {
-      "name": "CSS - colon, semi-colon, curly brace",
+      "name": "CSS - colon, semi-colon, curly brace, parenthesis",
       "scope": [
+        "punctuation.section.function",
         "punctuation.section.property-list",
         "punctuation.separator.key-value",
         "punctuation.terminator.rule"
@@ -414,8 +426,19 @@
     },
 
     {
-      "name": "CSS >",
-      "scope": ["keyword.operator.combinator.css"],
+      "name": "Sass - bracket, parenthesis",
+      "scope": [
+        "punctuation.definition.attribute-selector",
+        "punctuation.definition.media-query"
+      ],
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+
+    {
+      "name": "CSS `>` in selector",
+      "scope": ["keyword.operator.combinator.css", "meta.property-list.scss"],
       "settings": {
         "foreground": "#87CEEB"
       }
@@ -545,7 +568,7 @@
         "foreground": "#EE799F"
       }
     },
-    //
+
     {
       "name": "CSS at-rule (ie. `@media`)",
       "scope": ["keyword.control.at-rule"],
@@ -553,6 +576,15 @@
         "foreground": "#EE799F"
       }
     },
+
+    {
+      "name": "Sass `@import`",
+      "scope": ["keyword.control.at-rule.import.scss"],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+
     {
       "name": "keyword.control, 'Export' keyword (JS/TS)",
       "scope": ["keyword.control.flow", "keyword.control.export"],
@@ -574,9 +606,17 @@
     //   }
     // },
 
+    // {
+    //   "name": "CSS/Sass functions (ie. `var`, `rgba`, `lighten`, etc)",
+    //   "scope": ["support.function", "keyword.control.content"],
+    //   "settings": {
+    //     "foreground": "#87CEEB"
+    //   }
+    // },
+
     {
-      "name": "support.function.misc (ie. `var` function)",
-      "scope": ["support.function.misc", "keyword.control.content"],
+      "name": "Sass custom functions",
+      "scope": ["entity.name.function.scss"],
       "settings": {
         "foreground": "#CE93D8"
       }
@@ -587,14 +627,6 @@
       "scope": "constant.numeric.css keyword.other.unit",
       "settings": {
         "foreground": "#87CEEB"
-      }
-    },
-
-    {
-      "name": "keyword.other.important.scss (CSS `!important`)",
-      "scope": "keyword.other.important.scss",
-      "settings": {
-        "foreground": "#FF0000"
       }
     },
 
@@ -668,13 +700,6 @@
     },
 
     {
-      "name": "support.function.name.postcss.no-completions",
-      "scope": "support.function.name.postcss.no-completions",
-      "settings": {
-        "foreground": "#FF9430"
-      }
-    },
-    {
       "name": "support.type.property-name.json",
       "scope": "support.type.property-name.json",
       "settings": {
@@ -704,6 +729,16 @@
         "foreground": "#87CEEB"
       }
     },
+
+    {
+      "name": "Sass attribute selector value",
+      "scope": "meta.attribute-selector.scss",
+      "settings": {
+        // "foreground": "#87CEEB"
+        "foreground": "#fa8072"
+      }
+    },
+
     {
       "name": "support.type.property-name.css",
       "scope": "support.type.property-name.css",
@@ -750,15 +785,8 @@
       }
     },
     {
-      "name": "variable.parameter.postcss",
-      "scope": "variable.parameter.postcss",
-      "settings": {
-        "foreground": "#FFA54F"
-      }
-    },
-    {
-      "name": "variable.scss",
-      "scope": "variable.scss",
+      "name": "CSS/Sass variable",
+      "scope": ["variable.argument.css", "variable.css", "variable.scss"],
       "settings": {
         "foreground": "#FFA54F"
       }
