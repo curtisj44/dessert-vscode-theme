@@ -5,10 +5,17 @@
 :root {
   --birthDate: 1428px;
   --deathDate: 1476px;
+  --background: #fff;
 }
 
 body {
   background: #000;
+}
+
+@media (min-width: 1234px) {
+  body {
+    background: var(--background);
+  }
 }
 
 /* ...there was a guy named Vlad */
@@ -17,7 +24,7 @@ body {
   opacity: 0;
   display: none;
   visibility: hidden;
-  font-family: "Transylvania";
+  font-family: Transylvania, "Times New Roman", sans-serif, monospace;
   height: calc(var(--deathDate) - var(--birthDate));
 }
 #dracula:before,
