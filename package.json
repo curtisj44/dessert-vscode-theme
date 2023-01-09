@@ -3,7 +3,7 @@
   "publisher": "curtisj44",
   "displayName": "Dessert",
   "description": "A dark color theme for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },
