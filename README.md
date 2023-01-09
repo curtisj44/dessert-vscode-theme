@@ -3,6 +3,21 @@
 A dark color theme for Visual Studio Code.
 
 <!--
+
+## How to publish
+
+Full instructions: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+1. Make sure history is clean.
+
+2. Auto-increment version:
+   `vsce publish <version>`
+
+   where version is:
+      - `major`
+      - `minor`
+      - `patch`
+
 ## TODO:
 
 1. Add `.tsx` example
