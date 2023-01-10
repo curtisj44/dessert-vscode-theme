@@ -9,6 +9,8 @@ class Vampire {
     this.weaknesses = props.weaknesses;
   }
 
+  console.log('This is a test', { window });
+  
   get age() {
     return this.calcAge();
   }
