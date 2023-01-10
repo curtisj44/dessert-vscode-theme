@@ -9,6 +9,8 @@ interface VampireProps {
   weaknesses: string[];
 }
 
+console.log('This is a test', { window });
+
 class Vampire {
   location: string;
   birthDate: number;
