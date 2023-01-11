@@ -5,7 +5,7 @@
   "description": "A dark color theme for Visual Studio Code",
   "version": "0.0.2",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.17.0"
   },
   "categories": [
     "Themes"
