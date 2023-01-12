@@ -1,12 +1,9 @@
 {
+  "version": "0.0.3",
   "name": "dessert",
-  "publisher": "curtisj44",
   "displayName": "Dessert",
   "description": "A dark color theme for Visual Studio Code",
-  "version": "0.0.3",
-  "engines": {
-    "vscode": "^1.17.0"
-  },
+  "publisher": "curtisj44",
   "categories": [
     "Themes"
   ],
