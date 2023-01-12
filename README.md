@@ -24,9 +24,7 @@ https://marketplace.visualstudio.com/manage/publishers/curtisj44
 
 Official instructions:
 https://code.visualstudio.com/api/working-with-extensions/publishing-extension
--->
 
-<!--
 1. Install `vsce` globally: `npm install vsce -g`
 
 2. Make sure history is clean.
@@ -35,6 +33,11 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
    `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
    ie. `vsce publish patch`
 -->
+
+## Additional Resources
+
+- https://code.visualstudio.com/api/extension-capabilities/theming
+- https://code.visualstudio.com/api/references/theme-color
 
 <!--
 ## TODO:
