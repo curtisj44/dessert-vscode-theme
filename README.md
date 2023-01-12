@@ -2,7 +2,7 @@
 
 A dark color theme for Visual Studio Code.
 
-📦 Visual Studio Marketplace: [Dessert](https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert)
+📦 **[Dessert](https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert)** on Visual Studio Marketplace
 
 ## Development
 
