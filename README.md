@@ -1,5 +1,7 @@
 # dessert-vscode-theme
 
+![version number](https://img.shields.io/visual-studio-marketplace/v/curtisj44.dessert?style=flat-square&color=%232b2b2b)
+
 A dark color theme for Visual Studio Code.
 
 📦 **[Dessert](https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert)** on Visual Studio Marketplace
