@@ -16,6 +16,9 @@
       }
     ]
   },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
   "galleryBanner": {
     "color": "#2b2b2b",
     "theme": "dark"
