@@ -10,13 +10,15 @@ Full instructions: https://code.visualstudio.com/api/working-with-extensions/pub
 
 1. Make sure history is clean.
 
-2. Auto-increment version:
+2. Publish & version:
    `vsce publish <version>`
 
    where version is:
       - `major`
       - `minor`
       - `patch`
+
+   ie. `vsce publish patch`
 
 ## TODO:
 
