@@ -2,24 +2,41 @@
 
 A dark color theme for Visual Studio Code.
 
+📦 VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert
+
+## Development
+
+### Prerequisites
+
+1. Node >= 16.13.0
+
+### Getting Started
+
+1. Use correct version of Node: `nvm use`
+1. Review instructions in `./vsc-extension-quickstart.md` to enable live preview
+1. Edit theme defined in `./themes/Dessert-color-theme.json`
+
 <!--
+## Publishing
 
-## How to publish
+Publisher URL:
+https://marketplace.visualstudio.com/manage/publishers/curtisj44
 
-Full instructions: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+Official instructions:
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+-->
 
-1. Make sure history is clean.
+<!--
+1. Install `vsce` globally: `npm install vsce -g`
+
+2. Make sure history is clean.
 
 2. Publish & version:
-   `vsce publish <version>`
-
-   where version is:
-      - `major`
-      - `minor`
-      - `patch`
-
+   `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
    ie. `vsce publish patch`
+-->
 
+<!--
 ## TODO:
 
 1. Add `.tsx` example
@@ -27,7 +44,9 @@ Full instructions: https://code.visualstudio.com/api/working-with-extensions/pub
 1. Add `.yaml` example?
 1. Add `.xml` example?
 1. Review `postcss`?
+-->
 
+<!--
 black-background
 #2b2b2b
 
