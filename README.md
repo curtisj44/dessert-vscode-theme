@@ -40,6 +40,8 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
 - https://code.visualstudio.com/api/extension-capabilities/theming
 - https://code.visualstudio.com/api/references/theme-color
+- https://code.visualstudio.com/api/extension-guides/color-theme
+
 
 <!--
 ## TODO:
