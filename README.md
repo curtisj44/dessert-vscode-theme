@@ -44,7 +44,6 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 - https://code.visualstudio.com/api/references/theme-color
 - https://code.visualstudio.com/api/extension-guides/color-theme
 
-
 <!--
 ## TODO:
 
@@ -108,4 +107,5 @@ yellow-background
 #FFEE62
 
 yellow-grey (custom)
-#BCB8A -->
+#BCB8A4
+-->
