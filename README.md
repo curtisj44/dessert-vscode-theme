@@ -6,6 +6,8 @@ A dark color theme for Visual Studio Code.
 
 📦 **[Dessert](https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert)** on Visual Studio Marketplace
 
+[Preview theme in vscode.dev](https://vscode.dev/theme/curtisj44.dessert)
+
 ## Development
 
 ### Prerequisites
