@@ -78,6 +78,12 @@ gray-dark
 green
 #7CCD7C
 
+green-light (custom)
+#a5cd7c
+
+green-grey (custom)
+#98b398
+
 orange
 #FFA54F
 
