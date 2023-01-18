@@ -304,6 +304,14 @@
       }
     },
     {
+      "name": "Overwrite to keep `entity` default",
+      "scope": ["entity.name.type.class"],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+
+    {
       "name": "HTML tags",
       "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
       "settings": {
@@ -549,14 +557,29 @@
       "name": "entity.name.type.instance.jsdoc",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#98b398"
+        "foreground": "#a4bda4"
       }
     },
+
     {
       "name": "entity.name.type.module",
       "scope": "entity.name.type.module",
       "settings": {
-        "foreground": "#C0C0C0"
+        "foreground": "#a4bda4"
+      }
+    },
+    {
+      "name": "entity.other.inherited-class",
+      "scope": ["entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#a4bda4"
+      }
+    },
+    {
+      "name": "entity.name.type",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#a4bda4"
       }
     },
 
