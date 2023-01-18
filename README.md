@@ -35,7 +35,7 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
 2. Make sure history is clean.
 
-2. Publish & version:
+3. Publish & version:
    `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
    ie. `vsce publish patch`
 -->
