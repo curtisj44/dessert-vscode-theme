@@ -40,12 +40,16 @@ const AnotherComponent = ({
   );
 };
 
-const getSelectedTab = (tabs: TabDefinition[]) => {
-  const matchingTabs: TabDefinition[] = tabs.filter(
-    ({ id }) => id === selectedTabId
-  );
+type TabDefinition = {
+  id: number;
+};
+type TabDefinition1 = TabDefinition[];
+type TabDefinition2 = TabDefinition[];
 
-  return matchingTabs.type === "Temp"
+const getSelectedTab = (tabs: TabDefinition[]) => {
+  const matchingTabs: TabDefinition[] = tabs.filter(({ id }) => id === 1);
+
+  return matchingTabs.length > 0
     ? (matchingTabs as TabDefinition1)
     : (matchingTabs as TabDefinition2);
 };
@@ -56,7 +60,22 @@ interface FoodProps {
   protein: boolean;
 }
 
+type NonFatFoodProps = Omit<FoodProps, "fat">;
+type NonFatFoodPropsWithReallyLongName = Omit<FoodProps, "fat">;
+
 const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
+  const renderCount = React.useRef<number>(0);
+
+  const nonFatFoodRef1 = React.useRef<React.RefObject<NonFatFoodProps>>(
+    React.createRef()
+  );
+
+  const nonFatFoodRef2 = React.useRef<
+    React.RefObject<NonFatFoodPropsWithReallyLongName>
+  >(React.createRef());
+
+  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2);
+
   return (
     <dl>
       <dt>Carbohydrates</dt>
@@ -71,6 +90,6 @@ const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
   );
 };
 
-export default App;
+export default AnotherComponent;
 
 export { AnotherComponent, Food };
