@@ -321,7 +321,7 @@
 
     {
       "name": "`type` in `import type { foo } from 'bar'`",
-      "scope": ["keyword.control.type.tsx"],
+      "scope": ["keyword.control.type.ts", "keyword.control.type.tsx"],
       "settings": {
         "foreground": "#BCB8A4"
       }
