@@ -546,6 +546,17 @@
       }
     },
     {
+      "name": "TS `@` decorator",
+      "scope": [
+        "meta.decorator meta.function-call entity.name.function",
+        "punctuation.decorator.tsx"
+      ],
+      "settings": {
+        "foreground": "#b3a598"
+      }
+    },
+
+    {
       "name": "entity.name.type.instance.jsdoc",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
