@@ -28,6 +28,8 @@ export const getStyles = memoizeFunction(
       },
     };
 
+    console.log("test", { baseButtonStyles });
+
     return concatStyleSets(
       baseButtonStyles,
       defaultButtonStyles,
