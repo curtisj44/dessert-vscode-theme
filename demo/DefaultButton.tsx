@@ -14,7 +14,11 @@ export class DefaultButton extends React.Component<IButtonProps, {}> {
   public render(): JSX.Element {
     const { primary = false, styles, theme } = this.props;
 
-    console.log("test", { styles });
+    React.useEffect(() => {
+      document.addEventListener("click", () => {
+        console.log("test", { styles });
+      });
+    }, []);
 
     return (
       <BaseButton
