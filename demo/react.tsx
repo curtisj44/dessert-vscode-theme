@@ -73,4 +73,4 @@ const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
 
 export default App;
 
-export { AnotherComponent };
+export { AnotherComponent, Food };
