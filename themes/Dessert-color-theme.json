@@ -812,12 +812,16 @@
     },
 
     {
-      "name": "TS object annotation property",
+      "name": "TS type/interface object property",
       "scope": [
-        "meta.type.annotation.tsx",
-        "meta.type.annotation.tsx variable",
-        "meta.type.annotation.tsx entity",
-        "meta.type.annotation.tsx storage"
+        "meta.type.annotation",
+        "meta.type.annotation variable",
+        "meta.type.annotation entity",
+        "meta.type.annotation storage",
+        "meta.interface",
+        "meta.interface variable",
+        "meta.interface entity",
+        "meta.interface storage"
       ],
       "settings": {
         "foreground": "#A4BDA4"
@@ -825,8 +829,8 @@
     },
 
     {
-      "name": "TS object annotation value",
-      "scope": ["meta.type.annotation.tsx support.type"],
+      "name": "TS type/interface object value",
+      "scope": ["meta.type.annotation support.type"],
       "settings": {
         "foreground": "#a5cd7c"
       }
