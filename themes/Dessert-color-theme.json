@@ -795,6 +795,44 @@
     },
 
     {
+      "name": "variable.other.object",
+      "scope": ["meta.block meta.function-call variable.other.object"],
+      "settings": {
+        "foreground": "#FF9430"
+      }
+    },
+    {
+      "name": "Resetting to default `variable`",
+      "scope": [
+        "meta.block meta.block meta.function-call variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#c0c0c0"
+      }
+    },
+
+    {
+      "name": "TS object annotation property",
+      "scope": [
+        "meta.type.annotation.tsx",
+        "meta.type.annotation.tsx variable",
+        "meta.type.annotation.tsx entity",
+        "meta.type.annotation.tsx storage"
+      ],
+      "settings": {
+        "foreground": "#A4BDA4"
+      }
+    },
+
+    {
+      "name": "TS object annotation value",
+      "scope": ["meta.type.annotation.tsx support.type"],
+      "settings": {
+        "foreground": "#a5cd7c"
+      }
+    },
+
+    {
       "name": "variable.other.jsdoc",
       "scope": "variable.other.jsdoc",
       "settings": {
