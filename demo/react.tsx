@@ -50,6 +50,27 @@ const getSelectedTab = (tabs: TabDefinition[]) => {
     : (matchingTabs as TabDefinition2);
 };
 
+interface FoodProps {
+  carbohydrates: () => string;
+  fat: string;
+  protein: boolean;
+}
+
+const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
+  return (
+    <dl>
+      <dt>Carbohydrates</dt>
+      <dd>{carbohydrates()}</dd>
+
+      <dt>Fat</dt>
+      <dd>{fat}</dd>
+
+      <dt>Has protein</dt>
+      <dd>{protein}</dd>
+    </dl>
+  );
+};
+
 export default App;
 
 export { AnotherComponent };
