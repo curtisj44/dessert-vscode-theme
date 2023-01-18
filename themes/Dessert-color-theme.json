@@ -511,14 +511,6 @@
     },
 
     {
-      "name": "console",
-      "scope": ["variable.other.object.js"],
-      "settings": {
-        "foreground": "#76EEC6"
-      }
-    },
-
-    {
       "name": "invalid",
       "scope": ["invalid"],
       "settings": {
