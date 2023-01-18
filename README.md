@@ -17,8 +17,10 @@ A dark color theme for Visual Studio Code.
 ### Getting Started
 
 1. Use correct version of Node: `nvm use`
-1. Review instructions in `./vsc-extension-quickstart.md` to enable live preview
-1. Edit theme defined in `./themes/Dessert-color-theme.json`
+2. Review instructions in `./vsc-extension-quickstart.md` to enable live preview:
+   1. Press `F5` to open a new window with your extension loaded.
+   2. Open `File > Preferences > Color Themes` and pick "Dessert"
+3. Edit theme defined in `./themes/Dessert-color-theme.json`
 
 <!--
 ## Publishing
