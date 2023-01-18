@@ -829,8 +829,19 @@
     },
 
     {
+      "name": "TS interface name",
+      "scope": ["meta.interface entity.name.type.interface"],
+      "settings": {
+        "foreground": "#76EEC6"
+      }
+    },
+
+    {
       "name": "TS type/interface object value",
-      "scope": ["meta.type.annotation support.type"],
+      "scope": [
+        "meta.type.annotation support.type",
+        "meta.return.type support.type"
+      ],
       "settings": {
         "foreground": "#a5cd7c"
       }
