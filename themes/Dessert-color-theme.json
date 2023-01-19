@@ -461,14 +461,6 @@
     },
 
     {
-      "name": "storage",
-      "scope": ["storage"],
-      "settings": {
-        "foreground": "#EE799F"
-      }
-    },
-
-    {
       "name": "string",
       "scope": ["string"],
       "settings": {
@@ -545,6 +537,7 @@
         "foreground": "#FFA54F"
       }
     },
+
     {
       "name": "TS `@` decorator",
       "scope": [
@@ -671,12 +664,21 @@
     },
 
     {
-      "name": "Storage",
+      "name": "storage",
       "scope": "storage",
       "settings": {
         "foreground": "#EE799F"
       }
     },
+    {
+      "name": "TS `type` or `interface` definition",
+      "scope": ["storage.type.interface", "storage.type.type"],
+      "settings": {
+        "foreground": "#A4BDA4"
+        // "foreground": "#ff0000"
+      }
+    },
+
     {
       "name": "storage.type.class.jsdoc",
       "scope": "storage.type.class.jsdoc",
@@ -794,43 +796,56 @@
       }
     },
 
-    {
-      "name": "variable.other.object",
-      "scope": ["meta.block meta.function-call variable.other.object"],
-      "settings": {
-        "foreground": "#FF9430"
-      }
-    },
-    {
-      "name": "Resetting to default `variable`",
-      "scope": [
-        "meta.block meta.block meta.function-call variable.other.object"
-      ],
-      "settings": {
-        "foreground": "#c0c0c0"
-      }
-    },
+    // {
+    //   "name": "JS variable.other.object",
+    //   "scope": [
+    //     "meta.block meta.function-call variable.other.object",
+    //     "meta.block variable.other.object"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#FFA54F"
+    //   }
+    // },
+
+    // {
+    //   "name": "Resetting to default `variable`",
+    //   "scope": [
+    //     "meta.block meta.block meta.function-call variable.other.object"
+    //   ],
+    //   "settings": {
+    //     // "foreground": "#c0c0c0"
+    //     "foreground": "#ff0000"
+    //   }
+    // },
 
     {
       "name": "TS type/interface object property",
       "scope": [
-        "meta.type.annotation",
         "meta.type.annotation variable",
         "meta.type.annotation entity",
-        "meta.type.annotation storage",
-        "meta.interface",
+        // "meta.type.annotation storage",
         "meta.interface variable",
-        "meta.interface entity",
-        "meta.interface storage"
+        "meta.interface entity"
+        // "meta.interface storage"
       ],
+      "settings": {
+        "foreground": "#A4BDA4"
+      }
+    },
+    {
+      "name": "Value inside TS angle brackets: `<number>`",
+      "scope": ["meta.type.parameters support.type"],
       "settings": {
         "foreground": "#A4BDA4"
       }
     },
 
     {
-      "name": "TS interface name",
-      "scope": ["meta.interface entity.name.type.interface"],
+      "name": "TS interface/type name",
+      "scope": [
+        "meta.interface entity.name.type.interface",
+        "meta.type entity.name.type.alias"
+      ],
       "settings": {
         "foreground": "#76EEC6"
       }
