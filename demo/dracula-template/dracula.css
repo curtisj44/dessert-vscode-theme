@@ -40,6 +40,7 @@ body > #container {
 
 .cape {
   background: #ff0000 !important;
+  animation-name: slidein;
 }
 
 @font-face {
