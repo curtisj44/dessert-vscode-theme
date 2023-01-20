@@ -311,6 +311,28 @@
       }
     },
 
+    // Workaround for Scss syntax's handling of percentages in first-level @-rule definitions,
+    // ie: `12` in:
+    // ```
+    // @keyframes foo {
+    //   12.34% { /*...*/ }
+    // }
+    // ```
+    {
+      "name": "Digits in @-rule name (see comment above)",
+      "scope": ["meta.at-rule.keyframes.scss"],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "name": "Overwrite to set brackets back to intended color",
+      "scope": ["meta.at-rule.keyframes.scss punctuation.section.keyframes"],
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+
     {
       "name": "HTML tags",
       "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
