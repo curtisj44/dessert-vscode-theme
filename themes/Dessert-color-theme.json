@@ -709,7 +709,6 @@
       "scope": ["storage.type.interface", "storage.type.type"],
       "settings": {
         "foreground": "#A4BDA4"
-        // "foreground": "#ff0000"
       }
     },
 
