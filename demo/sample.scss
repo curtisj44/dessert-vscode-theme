@@ -51,10 +51,12 @@ body {
 }
 
 @keyframes slidein {
-  from {
+  0% {
     transform: translateX(0%);
   }
-
+  12.34% {
+    transform: translateX(20%);
+  }
   to {
     transform: translateX(100%);
   }
