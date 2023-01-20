@@ -408,24 +408,13 @@
       }
     },
 
-    // {
-    //   "name": "CSS - property value",
-    //   "scope": [
-
-    //   ],
-    //   "settings": {
-    //     "foreground": "#87CEEB"
-    //   }
-    // },
-
     {
       "name": "CSS - Property Value: Constant",
       "scope": [
         "constant.numeric.css",
-        // "constant.other.color.rgb-value.css",
         "constant.other.color.rgb-value.hex",
         "keyword.operator.css",
-        // "meta.property-group support.constant.property-value.css",
+        "keyword.operator.arithmetic.css",
         "meta.property-value",
         "meta.property-value support.constant.property-value"
       ],
@@ -444,13 +433,23 @@
     },
 
     {
-      "name": "CSS - colon, semi-colon, curly brace, parenthesis",
+      "name": "CSS/SCSS - comma, colon, semi-colon, curly brace, parenthesis",
       "scope": [
+        "meta.property-value punctuation.separator.list.comma",
+        "meta.property-list.scss meta.at-rule.include.scss punctuation.definition.parameters",
         "punctuation.section.function",
         "punctuation.section.property-list",
+        "punctuation.separator.delimiter",
         "punctuation.separator.key-value",
         "punctuation.terminator.rule"
       ],
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+    {
+      "name": "SCSS - comma in @include mixin value",
+      "scope": ["meta.at-rule.include.scss"],
       "settings": {
         "foreground": "#C0C0C0"
       }
@@ -468,7 +467,7 @@
     },
 
     {
-      "name": "CSS `>` in selector",
+      "name": "CSS/SCSS `>` in selector",
       "scope": ["keyword.operator.combinator.css", "meta.property-list.scss"],
       "settings": {
         "foreground": "#87CEEB"
