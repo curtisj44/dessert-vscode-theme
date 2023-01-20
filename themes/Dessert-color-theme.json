@@ -311,7 +311,7 @@
       }
     },
 
-    // Workaround for Scss syntax's handling of percentages in first-level @-rule definitions,
+    // Workaround for SCSS syntax's handling of percentages in first-level @-rule definitions,
     // ie: `12` in:
     // ```
     // @keyframes foo {
