@@ -633,10 +633,22 @@
     // },
 
     {
-      "name": "Sass custom functions",
-      "scope": ["entity.name.function.scss"],
+      "name": "CSS/Sass @-rule name, ie: `foo` in `@keyframes foo`",
+      "scope": [
+        "entity.name.function.scss",
+        "variable.parameter.keyframe-list"
+      ],
       "settings": {
         "foreground": "#CE93D8"
+      }
+    },
+    {
+      "name": "Sass custom `@` function, ie: `@include foo`",
+      "scope": [
+        "meta.property-list.scss meta.at-rule.include.scss entity.name.function.scss"
+      ],
+      "settings": {
+        "foreground": "#FA8072"
       }
     },
 
