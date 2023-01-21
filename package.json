@@ -23,6 +23,7 @@
     "color": "#2b2b2b",
     "theme": "dark"
   },
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/curtisj44/dessert-vscode-theme"
