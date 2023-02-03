@@ -66,13 +66,13 @@ blue-light
 blue-dark
 #2B91AF
 
-gray-light (default text)
+grey-light (default text)
 #C0C0C0
 
 grey-medium
 #808080
 
-gray-dark
+grey-dark
 #454545
 
 green
