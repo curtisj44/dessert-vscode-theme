@@ -31,11 +31,13 @@ https://marketplace.visualstudio.com/manage/publishers/curtisj44
 Official instructions:
 https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
-1. Install `vsce` globally: `npm install vsce -g`
+1. Use correct version of Node: `nvm use`
 
-2. Make sure history is clean.
+2. Install `vsce` globally: `npm install vsce -g` (if not already installed)
 
-3. Publish & version:
+3. Make sure history is clean.
+
+4. Publish & version:
    `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
    ie. `vsce publish patch`
 -->
