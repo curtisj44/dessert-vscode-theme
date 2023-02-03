@@ -57,6 +57,31 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 -->
 
 <!--
+# Colors
+https://codepen.io/curtisj44/pen/NWBogMz
+
+## UI
+
+black-darkest (borders)
+#111
+
+black-dark (main background / active tab)
+#2b2b2b
+
+grey-dark (inactive tab)
+#424242
+
+grey-medium
+#808080
+
+grey-lightish
+#b5b5b5
+
+grey-light (default text)
+#C0C0C0
+
+## Code
+
 black-background
 #2b2b2b
 
