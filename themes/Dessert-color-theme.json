@@ -30,7 +30,7 @@
     "dropdown.border": "#424242",
     "dropdown.foreground": "#b5b5b5",
     "editor.background": "#2b2b2b",
-    "editor.foreground": "#cccccc",
+    "editor.foreground": "#C0C0C0",
     "editor.inactiveSelectionBackground": "#ee799f33",
     "editor.findMatchBackground": "#87ceeb7f",
     "editor.findMatchHighlightBackground": "#87ceeb3f",
@@ -130,7 +130,7 @@
 
     "focusBorder": "#111",
 
-    "foreground": "#cccccc",
+    "foreground": "#C0C0C0",
 
     "gitDecoration.addedResourceForeground": "#c0c0c0",
     "gitDecoration.modifiedResourceForeground": "#c0c0c0",
@@ -160,12 +160,12 @@
     "list.dropBackground": "#707070",
     "list.errorForeground": "#2b91af",
     "list.focusBackground": "#111",
-    "list.focusForeground": "#ccc",
+    "list.focusForeground": "#C0C0C0",
     "list.highlightForeground": "#87ceeb",
     "list.hoverBackground": "#87CEEB40",
     "list.hoverForeground": "#ebebeb",
     "list.inactiveSelectionBackground": "#111",
-    "list.inactiveSelectionForeground": "#ccc",
+    "list.inactiveSelectionForeground": "#C0C0C0",
     "list.invalidItemForeground": "#2b91af",
     "list.warningForeground": "#87ceeb",
     "listFilterWidget.background": "#424242",
@@ -197,13 +197,13 @@
     "peekViewResult.lineForeground": "#595959",
     "peekViewResult.matchHighlightBackground": "#87ceeb",
     "peekViewResult.selectionBackground": "#707070",
-    "peekViewResult.selectionForeground": "#cccccc",
+    "peekViewResult.selectionForeground": "#C0C0C0",
     "peekViewTitle.background": "#595959",
     "peekViewTitleDescription.foreground": "#9e9e9e",
-    "peekViewTitleLabel.foreground": "#cccccc",
+    "peekViewTitleLabel.foreground": "#C0C0C0",
 
     "pickerGroup.border": "#9e9e9e",
-    "pickerGroup.foreground": "#cccccc",
+    "pickerGroup.foreground": "#C0C0C0",
 
     "progressBar.background": "#fa8072",
 
@@ -256,7 +256,7 @@
     "terminal.ansiBrightGreen": "#7CCD7C",
     "terminal.ansiBrightMagenta": "#EE799F",
     "terminal.ansiBrightRed": "#FA8072",
-    "terminal.ansiBrightWhite": "#cccccc",
+    "terminal.ansiBrightWhite": "#C0C0C0",
     "terminal.ansiBrightYellow": "#EEDC82",
     "terminal.ansiCyan": "#2b91af",
     "terminal.ansiGreen": "#7CCD7C",
@@ -1008,7 +1008,7 @@
       "name": "Markup List",
       "scope": "markup.list",
       "settings": {
-        "foreground": "#cccccc"
+        "foreground": "#C0C0C0"
       }
     },
     {
