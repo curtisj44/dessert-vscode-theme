@@ -9,7 +9,7 @@
     "activityBar.background": "#2b2b2b",
     "activityBar.border": "#111",
     "activityBar.foreground": "#c0c0c0",
-    "activityBar.inactiveForeground": "#444",
+    "activityBar.inactiveForeground": "#424242",
 
     "activityBarBadge.background": "#808080",
     "activityBarBadge.foreground": "#2b2b2b",
@@ -63,7 +63,7 @@
     "editorCursor.foreground": "#FFFF00",
 
     "editorLineNumber.activeForeground": "#808080",
-    // "editorLineNumber.foreground": "#454545",
+    // "editorLineNumber.foreground": "#424242",
     "editorLineNumber.foreground": "#48483d",
 
     "editorLink.activeForeground": "#2b91af",
@@ -232,9 +232,9 @@
     "statusBar.noFolderBorder": "#8080807f",
 
     "statusBarItem.activeBackground": "#2b91af",
-    "statusBarItem.hoverBackground": "#454545",
+    "statusBarItem.hoverBackground": "#424242",
     "statusBarItem.prominentBackground": "#2b91af",
-    "statusBarItem.prominentHoverBackground": "#454545",
+    "statusBarItem.prominentHoverBackground": "#424242",
 
     "tab.activeBackground": "#2b2b2b",
     "tab.activeBorder": "#2b2b2b",

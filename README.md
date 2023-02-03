@@ -73,7 +73,7 @@ grey-medium
 #808080
 
 grey-dark
-#454545
+#424242
 
 green
 #7CCD7C
