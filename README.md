@@ -68,16 +68,19 @@ black-darkest (borders)
 black-dark (main background / active tab)
 #2b2b2b
 
+grey-darker (alternate background)
+#363636
+
 grey-dark (inactive tab)
 #424242
 
 grey-medium
+#595959
+
+grey-light
 #808080
 
-grey-lightish
-#b5b5b5
-
-grey-light (default text)
+grey-lightest (default text)
 #C0C0C0
 
 ## Code
@@ -91,7 +94,7 @@ blue-light
 blue-dark
 #2B91AF
 
-grey-light (default text)
+grey-lightest (default text)
 #C0C0C0
 
 grey-medium
