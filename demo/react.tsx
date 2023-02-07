@@ -56,14 +56,14 @@ const getSelectedTab = (tabs: TabDefinition[]) => {
 
 interface FoodProps {
   carbohydrates: () => string;
-  fat: string;
+  fat?: string;
   protein: boolean;
 }
 
 type NonFatFoodProps = Omit<FoodProps, "fat">;
 type NonFatFoodPropsWithReallyLongName = Omit<FoodProps, "fat">;
 
-async function getFoodColors() {
+async function getFoodColors(_fat: string) {
   return "blue";
 }
 
@@ -72,7 +72,7 @@ const getFoodColors2 = async () => {
 };
 
 const Food = async ({ carbohydrates, fat, protein }: FoodProps) => {
-  const color = await getFoodColors();
+  const color = await getFoodColors(fat!);
 
   const renderCount = React.useRef<number>(0);
 
@@ -84,7 +84,7 @@ const Food = async ({ carbohydrates, fat, protein }: FoodProps) => {
     React.RefObject<NonFatFoodPropsWithReallyLongName>
   >(React.createRef());
 
-  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2, color);
+  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2, !color);
 
   return (
     <dl>
