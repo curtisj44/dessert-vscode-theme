@@ -779,7 +779,7 @@
       }
     },
     {
-      "name": "'console' in JS/TS",
+      "name": "`console` in JS/TS",
       "scope": ["support.class.console", "support.function.console"],
       "settings": {
         "foreground": "#76EEC6"
