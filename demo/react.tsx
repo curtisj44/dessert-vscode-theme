@@ -63,7 +63,17 @@ interface FoodProps {
 type NonFatFoodProps = Omit<FoodProps, "fat">;
 type NonFatFoodPropsWithReallyLongName = Omit<FoodProps, "fat">;
 
-const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
+async function getFoodColors() {
+  return "blue";
+}
+
+const getFoodColors2 = async () => {
+  return "red";
+};
+
+const Food = async ({ carbohydrates, fat, protein }: FoodProps) => {
+  const color = await getFoodColors();
+
   const renderCount = React.useRef<number>(0);
 
   const nonFatFoodRef1 = React.useRef<React.RefObject<NonFatFoodProps>>(
@@ -74,7 +84,7 @@ const Food = ({ carbohydrates, fat, protein }: FoodProps) => {
     React.RefObject<NonFatFoodPropsWithReallyLongName>
   >(React.createRef());
 
-  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2);
+  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2, color);
 
   return (
     <dl>
