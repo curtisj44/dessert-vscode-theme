@@ -636,10 +636,27 @@
     },
 
     {
-      "name": "keyword.control, 'Export' keyword (JS/TS)",
-      "scope": ["keyword.control.flow", "keyword.control.export"],
+      "name": "`return` and `export` keywords (JS/TS)",
+      "scope": [
+        // `return`
+        "keyword.control.flow",
+        // `export`
+        "keyword.control.export"
+      ],
       "settings": {
         "foreground": "#CE93D8"
+      }
+    },
+    {
+      "name": "`async` and `await` keywords (JS/TS)",
+      "scope": [
+        // `async`
+        "storage.modifier.async",
+        // `await`
+        "meta.block meta.var.expr keyword.control.flow"
+      ],
+      "settings": {
+        "foreground": "#BCB8A4"
       }
     },
 
