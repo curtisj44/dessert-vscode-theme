@@ -218,7 +218,7 @@
 
     "quickInputList.focusForeground": "#fff",
 
-    "scrollbar.shadow": "#11111130",
+    "scrollbar.shadow": "#2b2b2b",
     "scrollbarSlider.background": "#59595930",
 
     "selection.background": "#595959",
@@ -231,15 +231,15 @@
     "sideBarSectionHeader.foreground": "#808080",
     "sideBarSectionHeader.border": "#111",
 
-    "statusBar.background": "#2b2b2b",
-    "statusBar.foreground": "#595959",
+    "statusBar.background": "#424242",
     "statusBar.border": "#111",
     "statusBar.debuggingBackground": "#ffa54f",
-    "statusBar.debuggingForeground": "#2b2b2b",
     "statusBar.debuggingBorder": "#ffa54f7f",
+    "statusBar.debuggingForeground": "#2b2b2b",
+    "statusBar.foreground": "#808080",
     "statusBar.noFolderBackground": "#808080",
-    "statusBar.noFolderForeground": "#2b2b2b",
     "statusBar.noFolderBorder": "#8080807f",
+    "statusBar.noFolderForeground": "#2b2b2b",
 
     "statusBarItem.activeBackground": "#2b91af",
     "statusBarItem.hoverBackground": "#424242",
@@ -248,7 +248,7 @@
 
     "tab.activeBackground": "#2b2b2b",
     "tab.activeBorder": "#2b2b2b",
-    "tab.activeBorderTop": "#111",
+    // "tab.activeBorderTop": "#111",
     "tab.activeForeground": "#C0C0C0",
     "tab.border": "#111",
     "tab.inactiveBackground": "#424242",
@@ -277,10 +277,12 @@
     "terminal.selectionBackground": "#111",
     "terminalCursor.background": "#424242",
     "terminalCursor.foreground": "#9e9e9e",
-    "titleBar.activeBackground": "#2b2b2b",
-    "titleBar.activeForeground": "#595959",
-    "titleBar.inactiveBackground": "#2b2b2b",
-    "titleBar.inactiveForeground": "#595959",
+
+    "titleBar.activeBackground": "#424242",
+    "titleBar.activeForeground": "#808080",
+    "titleBar.border": "#111",
+    "titleBar.inactiveBackground": "#424242",
+    "titleBar.inactiveForeground": "#808080",
 
     "tree.indentGuidesStroke": "#424242",
 
