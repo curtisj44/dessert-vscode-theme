@@ -624,10 +624,18 @@
     },
 
     {
-      "name": "CSS at-rule (ie. `@media`)",
+      "name": "CSS/SCSS at-rule (ie. `@media`)",
       "scope": ["keyword.control.at-rule"],
       "settings": {
         "foreground": "#EE799F"
+      }
+    },
+
+    {
+      "name": "Sass `@include`",
+      "scope": ["keyword.control.at-rule.include"],
+      "settings": {
+        "foreground": "#BCB8A4"
       }
     },
 
