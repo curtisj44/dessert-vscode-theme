@@ -77,10 +77,14 @@ div[role="main"] {
   border: 3px solid $color2;
   padding: $border-radius;
 
-  li {
+  & li {
     color: $fontcolor1;
     margin-bottom: 12px;
     cursor: pointer;
+  }
+
+  &.test {
+    border-top-right-radius: 3%;
   }
 }
 

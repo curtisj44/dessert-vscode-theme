@@ -378,11 +378,12 @@
     },
 
     {
-      "name": "CSS - tag-name",
+      "name": "CSS/SCSS - tag-name, `&`",
       "scope": [
         "meta.selector.css",
         "meta.selector.css entity.name.tag",
         "entity.name.tag.css",
+        "entity.name.tag.reference.scss",
         "entity.other.attribute-name.pseudo-class.css",
         "entity.other.attribute-name.class.css"
       ],
