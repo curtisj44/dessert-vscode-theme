@@ -632,8 +632,11 @@
     },
 
     {
-      "name": "Sass `@include`",
-      "scope": ["keyword.control.at-rule.include"],
+      "name": "Sass `@extend` and `@include`",
+      "scope": [
+        "keyword.control.at-rule.extend",
+        "keyword.control.at-rule.include"
+      ],
       "settings": {
         "foreground": "#BCB8A4"
       }
