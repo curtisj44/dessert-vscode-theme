@@ -361,12 +361,47 @@
         "foreground": "#808080"
       }
     },
-
     {
-      "name": "`type` in `import type { foo } from 'bar'`",
-      "scope": ["keyword.control.type.ts", "keyword.control.type.tsx"],
+      "name": "keyword",
+      "scope": [
+        // `switch`, `case`, `default` (JS/TS)
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#EE799F"
+      }
+    },
+    {
+      "name": "`type` in `import type { foo } from 'bar'` (JS/TS)",
+      "scope": ["keyword.control.type"],
       "settings": {
         "foreground": "#BCB8A4"
+      }
+    },
+
+    // {
+    //   "name": "operator keyword",
+    //   "scope": ["keyword.operator"],
+    //   "settings": {
+    //     "foreground": "#EE799F"
+    //     // "foreground": "#F00"
+    //   }
+    // },
+
+    {
+      "name": "operator keywords",
+      "scope": [
+        // `=` (JS/TS)
+        "keyword.operator.assignment",
+        // `&&`, `!`, `||` (JS/TS)
+        "keyword.operator.logical",
+        // `>=`, `>`, etc (JS/TS)
+        "keyword.operator.relational",
+        // `?`, `:` (JS/TS)
+        "keyword.operator.ternary"
+      ],
+      "settings": {
+        "foreground": "#EE799F"
       }
     },
 
@@ -374,6 +409,82 @@
       "scope": ["keyword.operator.accessor"],
       "settings": {
         "foreground": "#C0C0C0"
+      }
+    },
+    {
+      "scope": [
+        // `delete`, `void` in JS/TS
+        "keyword.operator.expression"
+      ],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+
+    {
+      "name": "Control keywords (JS/TS)",
+      "scope": [
+        // `if`, `else`, `else if`
+        "keyword.control.conditional",
+        // `for`, `break`
+        "keyword.control.loop",
+        // `try`, `catch`
+        "keyword.control.trycatch"
+      ],
+      "settings": {
+        "foreground": "#EEDC82"
+      }
+    },
+
+    {
+      "name": "CSS/SCSS at-rule (ie. `@media`)",
+      "scope": ["keyword.control.at-rule"],
+      "settings": {
+        "foreground": "#EE799F"
+      }
+    },
+
+    {
+      "name": "Sass `@extend` and `@include`",
+      "scope": [
+        "keyword.control.at-rule.extend",
+        "keyword.control.at-rule.include"
+      ],
+      "settings": {
+        "foreground": "#BCB8A4"
+      }
+    },
+
+    {
+      "name": "Sass `@import`",
+      "scope": ["keyword.control.at-rule.import.scss"],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+
+    {
+      "name": "`return` and `export` keywords (JS/TS)",
+      "scope": [
+        // `return`
+        "keyword.control.flow",
+        // `export`
+        "keyword.control.export"
+      ],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+    {
+      "name": "`async` and `await` keywords (JS/TS)",
+      "scope": [
+        // `async`
+        "storage.modifier.async",
+        // `await`
+        "meta.block meta.var.expr keyword.control.flow"
+      ],
+      "settings": {
+        "foreground": "#BCB8A4"
       }
     },
 
@@ -520,25 +631,6 @@
     },
 
     {
-      "name": "variable",
-      "scope": ["variable"],
-      "settings": {
-        "foreground": "#FFA54F"
-      }
-    },
-    {
-      "name": "variables (JS)",
-      "scope": [
-        "variable.other.readwrite",
-        "variable.other.dollar.js",
-        "variable.other.object.dollar.js"
-      ],
-      "settings": {
-        "foreground": "#C0C0C0"
-      }
-    },
-
-    {
       "name": "invalid",
       "scope": ["invalid"],
       "settings": {
@@ -564,11 +656,12 @@
       }
     },
 
-    // Start of new port
-
     {
       "name": "meta.function-call entity.name.function",
-      "scope": ["meta.function-call entity.name.function"],
+      "scope": [
+        "meta.function-call entity.name.function",
+        "variable.other.property"
+      ],
       "settings": {
         "foreground": "#FFA54F"
       }
@@ -584,6 +677,23 @@
         "foreground": "#b3a598"
       }
     },
+
+    {
+      "name": "meta.object-literal.key: all levels",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#2B91AF"
+      }
+    },
+    // {
+    //   "name": "meta.object-literal.key: >= level 2",
+    //   "scope": [
+    //     "meta.object.member.ts meta.objectliteral.ts meta.object-literal.key"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#F00"
+    //   }
+    // },
 
     {
       "name": "entity.name.type.instance.jsdoc",
@@ -612,66 +722,6 @@
       "scope": ["entity.name.type"],
       "settings": {
         "foreground": "#a4bda4"
-      }
-    },
-
-    {
-      "name": "keyword.operator.assignment",
-      "scope": "keyword.operator.assignment",
-      "settings": {
-        "foreground": "#EE799F"
-      }
-    },
-
-    {
-      "name": "CSS/SCSS at-rule (ie. `@media`)",
-      "scope": ["keyword.control.at-rule"],
-      "settings": {
-        "foreground": "#EE799F"
-      }
-    },
-
-    {
-      "name": "Sass `@extend` and `@include`",
-      "scope": [
-        "keyword.control.at-rule.extend",
-        "keyword.control.at-rule.include"
-      ],
-      "settings": {
-        "foreground": "#BCB8A4"
-      }
-    },
-
-    {
-      "name": "Sass `@import`",
-      "scope": ["keyword.control.at-rule.import.scss"],
-      "settings": {
-        "foreground": "#808080"
-      }
-    },
-
-    {
-      "name": "`return` and `export` keywords (JS/TS)",
-      "scope": [
-        // `return`
-        "keyword.control.flow",
-        // `export`
-        "keyword.control.export"
-      ],
-      "settings": {
-        "foreground": "#CE93D8"
-      }
-    },
-    {
-      "name": "`async` and `await` keywords (JS/TS)",
-      "scope": [
-        // `async`
-        "storage.modifier.async",
-        // `await`
-        "meta.block meta.var.expr keyword.control.flow"
-      ],
-      "settings": {
-        "foreground": "#BCB8A4"
       }
     },
 
@@ -867,9 +917,16 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#c0c0c0"
+        "foreground": "#C0C0C0"
       }
     },
+    // {
+    //   "name": "Variable (JS/TS)",
+    //   "scope": ["variable.other.object", "variable.other.property"],
+    //   "settings": {
+    //     "foreground": "#FFA54F"
+    //   }
+    // },
 
     // {
     //   "name": "JS variable.other.object",
@@ -888,7 +945,7 @@
     //     "meta.block meta.block meta.function-call variable.other.object"
     //   ],
     //   "settings": {
-    //     // "foreground": "#c0c0c0"
+    //     // "foreground": "#C0C0C0"
     //     "foreground": "#ff0000"
     //   }
     // },
@@ -947,11 +1004,12 @@
 
     {
       "name": "variable.parameter",
-      "scope": "variable.parameter",
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#2B91AF"
       }
     },
+
     {
       "name": "CSS/Sass variable",
       "scope": ["variable.argument.css", "variable.css", "variable.scss"],
