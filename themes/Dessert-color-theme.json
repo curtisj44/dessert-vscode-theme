@@ -134,16 +134,16 @@
 
     "foreground": "#C0C0C0",
 
-    "gitDecoration.addedResourceForeground": "#c0c0c0",
-    "gitDecoration.conflictingResourceForeground": "#c0c0c0",
-    "gitDecoration.deletedResourceForeground": "#c0c0c0",
-    "gitDecoration.ignoredResourceForeground": "#c0c0c0",
-    "gitDecoration.modifiedResourceForeground": "#c0c0c0",
-    "gitDecoration.renamedResourceForeground": "#c0c0c0",
-    "gitDecoration.stageDeletedResourceForeground": "#c0c0c0",
-    "gitDecoration.stageModifiedResourceForeground": "#c0c0c0",
-    "gitDecoration.submoduleResourceForeground": "#c0c0c0",
-    "gitDecoration.untrackedResourceForeground": "#c0c0c0",
+    "gitDecoration.addedResourceForeground": "#C0C0C0",
+    "gitDecoration.conflictingResourceForeground": "#C0C0C0",
+    "gitDecoration.deletedResourceForeground": "#C0C0C0",
+    "gitDecoration.ignoredResourceForeground": "#C0C0C0",
+    "gitDecoration.modifiedResourceForeground": "#C0C0C0",
+    "gitDecoration.renamedResourceForeground": "#C0C0C0",
+    "gitDecoration.stageDeletedResourceForeground": "#C0C0C0",
+    "gitDecoration.stageModifiedResourceForeground": "#C0C0C0",
+    "gitDecoration.submoduleResourceForeground": "#C0C0C0",
+    "gitDecoration.untrackedResourceForeground": "#C0C0C0",
 
     "icon.foreground": "#808080",
 
