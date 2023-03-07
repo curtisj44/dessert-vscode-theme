@@ -35,7 +35,7 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
 2. Install `vsce` globally: `npm install vsce -g` (if not already installed)
 
-3. Make sure history is clean.
+3. Make sure working tree is clean: `git status`
 
 4. Publish & version:
    `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
