@@ -84,7 +84,11 @@ const Food = async ({ carbohydrates, fat, protein }: FoodProps) => {
     React.RefObject<NonFatFoodPropsWithReallyLongName>
   >(React.createRef());
 
-  console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2, !color);
+  if (color === "orange") {
+    console.log(renderCount, nonFatFoodRef1, nonFatFoodRef2, !color);
+  } else {
+    console.log(color);
+  }
 
   return (
     <dl>
