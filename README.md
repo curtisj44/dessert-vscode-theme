@@ -42,11 +42,16 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
    ie. `vsce publish patch`
 -->
 
-## Additional Resources
+## Theming Resources
 
 - https://code.visualstudio.com/api/extension-capabilities/theming
 - https://code.visualstudio.com/api/references/theme-color
 - https://code.visualstudio.com/api/extension-guides/color-theme
+
+## Inspiration
+
+- https://studiostyl.es/schemes/desertex-revised
+- https://github.com/mbbill/desertEx
 
 <!--
 ## TODO:
