@@ -371,9 +371,77 @@
         "foreground": "#EE799F"
       }
     },
+
+    {
+      "name": "Control keywords (JS/TS)",
+      "scope": [
+        // `if`, `else`, `else if`
+        "keyword.control.conditional",
+        // `for`, `break`
+        "keyword.control.loop",
+        // `try`, `catch`
+        "keyword.control.trycatch"
+      ],
+      "settings": {
+        "foreground": "#EEDC82"
+      }
+    },
+
+    {
+      "name": "CSS/SCSS at-rule (ie. `@media`)",
+      "scope": ["keyword.control.at-rule"],
+      "settings": {
+        "foreground": "#EE799F"
+      }
+    },
+
+    {
+      "name": "Sass `@extend` and `@include`",
+      "scope": [
+        "keyword.control.at-rule.extend",
+        "keyword.control.at-rule.include"
+      ],
+      "settings": {
+        "foreground": "#BCB8A4"
+      }
+    },
+
+    {
+      "name": "import statements",
+      "scope": [
+        // `@import (Sass)
+        "keyword.control.at-rule.import.scss",
+        // `import` (JS/TS)
+        "keyword.control.import",
+        // `as` (JS/TS)
+        "keyword.control.as",
+        // `from` (JS/TS)
+        "keyword.control.from"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+
+    {
+      "name": "`return` and `export` keywords (JS/TS)",
+      "scope": [
+        // `return`
+        "keyword.control.flow",
+        // `export`
+        "keyword.control.export"
+      ],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+
     {
       "name": "`type` in `import type { foo } from 'bar'` (JS/TS)",
-      "scope": ["keyword.control.type"],
+      "scope": [
+        // `type` (JS/TS)
+        "keyword.control.type"
+      ],
       "settings": {
         "foreground": "#BCB8A4"
       }
@@ -421,60 +489,6 @@
       }
     },
 
-    {
-      "name": "Control keywords (JS/TS)",
-      "scope": [
-        // `if`, `else`, `else if`
-        "keyword.control.conditional",
-        // `for`, `break`
-        "keyword.control.loop",
-        // `try`, `catch`
-        "keyword.control.trycatch"
-      ],
-      "settings": {
-        "foreground": "#EEDC82"
-      }
-    },
-
-    {
-      "name": "CSS/SCSS at-rule (ie. `@media`)",
-      "scope": ["keyword.control.at-rule"],
-      "settings": {
-        "foreground": "#EE799F"
-      }
-    },
-
-    {
-      "name": "Sass `@extend` and `@include`",
-      "scope": [
-        "keyword.control.at-rule.extend",
-        "keyword.control.at-rule.include"
-      ],
-      "settings": {
-        "foreground": "#BCB8A4"
-      }
-    },
-
-    {
-      "name": "Sass `@import`",
-      "scope": ["keyword.control.at-rule.import.scss"],
-      "settings": {
-        "foreground": "#808080"
-      }
-    },
-
-    {
-      "name": "`return` and `export` keywords (JS/TS)",
-      "scope": [
-        // `return`
-        "keyword.control.flow",
-        // `export`
-        "keyword.control.export"
-      ],
-      "settings": {
-        "foreground": "#CE93D8"
-      }
-    },
     {
       "name": "`async` and `await` keywords (JS/TS)",
       "scope": [
