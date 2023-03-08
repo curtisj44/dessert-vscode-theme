@@ -407,7 +407,7 @@
     },
 
     {
-      "name": "import statements",
+      "name": "import statement keywords",
       "scope": [
         // `@import (Sass)
         "keyword.control.at-rule.import.scss",
