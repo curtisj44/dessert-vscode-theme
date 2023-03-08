@@ -94,7 +94,7 @@
     "editorSuggestWidget.selectedBackground": "#595959",
     "editorMarkerNavigation.background": "#424242",
     "editorMarkerNavigationError.background": "#2b91af",
-    "editorMarkerNavigationWarning.background": "#ffa54f",
+    "editorMarkerNavigationWarning.background": "#FFA54F",
 
     "editorOverviewRuler.border": "#424242",
     "editorOverviewRuler.findMatchForeground": "#87ceebbf",
@@ -106,7 +106,7 @@
     "editorOverviewRuler.addedForeground": "#111",
     "editorOverviewRuler.deletedForeground": "#2b91af7f",
     "editorOverviewRuler.errorForeground": "#2b91af7f",
-    "editorOverviewRuler.warningForeground": "#ffa54f7f",
+    "editorOverviewRuler.warningForeground": "#FFA54F7f",
     "editorOverviewRuler.infoForeground": "#ee799f7f",
     "editorOverviewRuler.currentContentForeground": "#2b91af",
     "editorOverviewRuler.incomingContentForeground": "#ee799f",
@@ -234,8 +234,8 @@
 
     "statusBar.background": "#2b2b2b",
     "statusBar.border": "#111",
-    "statusBar.debuggingBackground": "#ffa54f",
-    "statusBar.debuggingBorder": "#ffa54f7f",
+    "statusBar.debuggingBackground": "#FFA54F",
+    "statusBar.debuggingBorder": "#111",
     "statusBar.debuggingForeground": "#2b2b2b",
     "statusBar.foreground": "#808080",
     "statusBar.noFolderBackground": "#808080",
