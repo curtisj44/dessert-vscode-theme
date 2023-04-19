@@ -69,7 +69,7 @@ https://codepen.io/curtisj44/pen/NWBogMz
 
 ## UI
 
-black-darkest (borders)
+black-darkest (borders / selected text background)
 #111
 
 black-dark (main background / active tab)

@@ -43,7 +43,7 @@
     "editor.lineHighlightBorder": "#424242",
     "editor.rangeHighlightBackground": "#424242",
 
-    "editor.selectionHighlightBackground": "#2b2b2b",
+    "editor.selectionHighlightBackground": "#111",
     "editor.selectionHighlightBorder": "#EEDC82",
     "editor.selectionBackground": "#111",
 
@@ -222,7 +222,7 @@
     "scrollbar.shadow": "#2b2b2b",
     "scrollbarSlider.background": "#59595930",
 
-    "selection.background": "#595959",
+    "selection.background": "#111",
 
     "sideBar.background": "#363636",
     "sideBar.foreground": "#808080",
