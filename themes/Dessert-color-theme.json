@@ -32,13 +32,6 @@
     "dropdown.foreground": "#C0C0C0",
     "editor.background": "#2b2b2b",
     "editor.foreground": "#C0C0C0",
-    "editor.inactiveSelectionBackground": "#ee799f33",
-    "editor.findMatchBackground": "#87ceeb7f",
-    "editor.findMatchHighlightBackground": "#87ceeb3f",
-    "editor.findRangeHighlightBackground": "#424242",
-    "editor.hoverHighlightBackground": "#595959",
-    "editor.lineHighlightBackground": "#2b2b2b",
-    // "editor.lineHighlightBackground": "#2e2e2e",
 
     "editor.lineHighlightBorder": "#424242",
     "editor.rangeHighlightBackground": "#424242",
