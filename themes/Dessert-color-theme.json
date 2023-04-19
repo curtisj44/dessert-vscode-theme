@@ -49,8 +49,8 @@
 
     "editorUnnecessaryCode.border": "#808080",
 
-    "editor.wordHighlightBackground": "#8080807f",
-    "editor.wordHighlightStrongBackground": "#eedc827f",
+    "editor.wordHighlightBackground": "#EEDC8233",
+    "editor.wordHighlightStrongBackground": "#EEDC8233",
 
     "editorGroup.emptyBackground": "#2b2b2b",
     "editorGroup.border": "#111",
