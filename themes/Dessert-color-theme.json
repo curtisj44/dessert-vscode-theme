@@ -30,6 +30,7 @@
     "dropdown.background": "#424242",
     "dropdown.border": "#424242",
     "dropdown.foreground": "#C0C0C0",
+
     "editor.background": "#2b2b2b",
     "editor.foreground": "#C0C0C0",
 
@@ -43,10 +44,18 @@
     "editor.selectionHighlightBorder": "#EEDC82",
     "editor.selectionBackground": "#111",
 
-    "editorUnnecessaryCode.border": "#808080",
-
     "editor.wordHighlightBackground": "#EEDC8233",
     "editor.wordHighlightStrongBackground": "#EEDC8233",
+
+    "editorBracketMatch.background": "#424242",
+    "editorBracketMatch.border": "#424242",
+
+    "editorCodeLens.foreground": "#9e9e9e",
+
+    "editorCursor.foreground": "#FF0",
+
+    "editorError.foreground": "#FA8072",
+    "editorError.border": "#2b2b2b",
 
     "editorGroup.emptyBackground": "#2b2b2b",
     "editorGroup.border": "#111",
@@ -57,27 +66,6 @@
     "editorGroupHeader.tabsBackground": "#424242",
     "editorGroupHeader.tabsBorder": "#111",
 
-    "editorCursor.foreground": "#FFFF00",
-
-    "editorLineNumber.activeForeground": "#808080",
-    // "editorLineNumber.foreground": "#424242",
-    "editorLineNumber.foreground": "#48483d",
-
-    "editorLink.activeForeground": "#2b91af",
-
-    "editorIndentGuide.background": "#424242",
-    "editorIndentGuide.activeBackground": "#595959",
-
-    "editorRuler.foreground": "#424242",
-
-    "editorBracketMatch.background": "#424242",
-    "editorBracketMatch.border": "#424242",
-
-    "editorCodeLens.foreground": "#9e9e9e",
-
-    "editorError.foreground": "#FA8072",
-    "editorError.border": "#2b2b2b",
-
     "editorGutter.background": "#2b2b2b",
     "editorGutter.modifiedBackground": "#EEDC82",
     "editorGutter.addedBackground": "#7CCD7C",
@@ -86,11 +74,14 @@
     "editorHoverWidget.background": "#424242",
     "editorHoverWidget.border": "#424242",
 
-    "editorSuggestWidget.background": "#424242",
-    "editorSuggestWidget.border": "#424242",
-    "editorSuggestWidget.foreground": "#C0C0C0",
-    "editorSuggestWidget.highlightForeground": "#eedc82",
-    "editorSuggestWidget.selectedBackground": "#595959",
+    "editorIndentGuide.background": "#424242",
+    "editorIndentGuide.activeBackground": "#595959",
+
+    "editorLineNumber.activeForeground": "#808080",
+    // "editorLineNumber.foreground": "#424242",
+    "editorLineNumber.foreground": "#48483d",
+
+    "editorLink.activeForeground": "#2b91af",
 
     "editorMarkerNavigation.background": "#424242",
     "editorMarkerNavigationError.background": "#2b91af",
@@ -113,6 +104,16 @@
     "editorOverviewRuler.wordHighlightStrongForeground": "#707070bf",
 
     "editorPane.background": "#2b2b2b",
+
+    "editorRuler.foreground": "#424242",
+
+    "editorSuggestWidget.background": "#424242",
+    "editorSuggestWidget.border": "#424242",
+    "editorSuggestWidget.foreground": "#C0C0C0",
+    "editorSuggestWidget.highlightForeground": "#eedc82",
+    "editorSuggestWidget.selectedBackground": "#595959",
+
+    "editorUnnecessaryCode.border": "#808080",
 
     "editorWarning.foreground": "#D21932",
     "editorWarning.border": "#2b2b2b",
