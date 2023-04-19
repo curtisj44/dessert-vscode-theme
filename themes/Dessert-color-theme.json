@@ -77,9 +77,8 @@
     "editorIndentGuide.background": "#424242",
     "editorIndentGuide.activeBackground": "#595959",
 
-    "editorLineNumber.activeForeground": "#808080",
-    // "editorLineNumber.foreground": "#424242",
-    "editorLineNumber.foreground": "#48483d",
+    "editorLineNumber.activeForeground": "#C0C0C080",
+    "editorLineNumber.foreground": "#BCB8A433",
 
     "editorLink.activeForeground": "#2b91af",
 
