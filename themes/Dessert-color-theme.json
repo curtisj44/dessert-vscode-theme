@@ -292,6 +292,9 @@
     "widget.shadow": "#11111130"
   },
 
+  // https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide
+  // "semanticHighlighting": true,
+
   "tokenColors": [
     {
       "name": "Comment",
