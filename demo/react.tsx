@@ -25,6 +25,10 @@ const AnotherComponent = ({
     });
   }, []);
 
+  if (typeof second === "string") {
+    second = `${second} ${second}`;
+  }
+
   return (
     <div className="another-component">
       {first}
