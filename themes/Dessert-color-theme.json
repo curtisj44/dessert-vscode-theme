@@ -643,21 +643,6 @@
     },
 
     {
-      "name": "support",
-      "scope": ["support"],
-      "settings": {
-        "foreground": "#FFA54F"
-      }
-    },
-    {
-      "name": "CSS - Generic font name (ie. serif)",
-      "scope": ["support.constant.font-name"],
-      "settings": {
-        "foreground": "#FA8072"
-      }
-    },
-
-    {
       "name": "invalid",
       "scope": ["invalid"],
       "settings": {
@@ -855,11 +840,31 @@
       }
     },
 
+    // {
+    //   "name": "Support",
+    //   "scope": ["support"],
+    //   "settings": {
+    //     "foreground": "#FFA54F"
+    //     // "foreground": "#2b91af"
+    //   }
+    // },
+
     {
-      "name": "Support",
-      "scope": "support",
+      "name": "Support in CSS/Sass",
+      "scope": [
+        // @media argument (ie: `min-width`) in CSS/Sass
+        "support.type"
+      ],
       "settings": {
         "foreground": "#2b91af"
+      }
+    },
+
+    {
+      "name": "CSS - Generic font name (ie. serif)",
+      "scope": ["support.constant.font-name"],
+      "settings": {
+        "foreground": "#FA8072"
       }
     },
 
@@ -1029,13 +1034,13 @@
       }
     },
 
-    {
-      "name": "variable.parameter",
-      "scope": ["variable.parameter"],
-      "settings": {
-        "foreground": "#2B91AF"
-      }
-    },
+    // {
+    //   "name": "variable.parameter",
+    //   "scope": ["variable.parameter"],
+    //   "settings": {
+    //     "foreground": "#2B91AF"
+    //   }
+    // },
 
     {
       "name": "CSS/Sass variable",
