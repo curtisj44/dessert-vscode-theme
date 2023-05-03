@@ -479,9 +479,19 @@
         "foreground": "#C0C0C0"
       }
     },
+
     {
       "scope": [
-        // `delete`, `void` in JS/TS
+        // `typeof` in JS/TS
+        "keyword.operator.expression.typeof"
+      ],
+      "settings": {
+        "foreground": "#EE799F"
+      }
+    },
+    {
+      "scope": [
+        // `delete`, `void`, `typeof` in JS/TS
         "keyword.operator.expression"
       ],
       "settings": {
