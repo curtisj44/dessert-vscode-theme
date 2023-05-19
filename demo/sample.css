@@ -30,6 +30,7 @@ body > #container {
   opacity: 0;
   display: none;
   visibility: hidden;
+  font: 10px/1.5em sans-serif;
   font-family: Transylvania, "Times New Roman", sans-serif, monospace;
   height: calc(var(--deathDate) - var(--birthDate));
 }
