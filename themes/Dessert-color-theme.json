@@ -635,7 +635,6 @@
     },
 
     {
-      "name": "string",
       "scope": ["string"],
       "settings": {
         "foreground": "#FA8072"
@@ -821,14 +820,6 @@
       "scope": "storage.type.class.jsdoc",
       "settings": {
         "foreground": "#7CCD7C"
-      }
-    },
-
-    {
-      "name": "String",
-      "scope": "string",
-      "settings": {
-        "foreground": "#fa8072"
       }
     },
 
