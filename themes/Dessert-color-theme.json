@@ -327,6 +327,16 @@
       }
     },
 
+    {
+      "scope": [
+        // `{%`, `%}`, `{{`, and `}}` (Nunjucks)
+        "entity.tag.tagbraces.nunjucks"
+      ],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+
     // Workaround for SCSS syntax's handling of percentages in first-level @-rule definitions,
     // ie: `12` in:
     // ```
@@ -369,6 +379,26 @@
       "scope": [
         // `switch`, `case`, `default` (JS/TS)
         "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#EE799F"
+      }
+    },
+
+    {
+      "scope": [
+        // `title` in `{{ title }}` (Nunjucks)
+        "keyword.control.filter.nunjucks"
+      ],
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+
+    {
+      "scope": [
+        // `in` in `{% for test in tests %}` (Nunjucks)
+        "keyword.operator.nunjucks"
       ],
       "settings": {
         "foreground": "#EE799F"
@@ -647,6 +677,19 @@
         "foreground": "#EEDC82"
       }
     },
+    {
+      "scope": ["storage.type.variable string"],
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+
+    {
+      "scope": ["storage.type.templatetag string.unquoted.tag-string.nunjucks"],
+      "settings": {
+        "foreground": "#76EEC6"
+      }
+    },
 
     {
       "name": "invalid",
@@ -819,6 +862,13 @@
       "scope": ["storage.type.interface", "storage.type.type"],
       "settings": {
         "foreground": "#A4BDA4"
+      }
+    },
+
+    {
+      "scope": ["storage.type.attr.nunjucks"],
+      "settings": {
+        "foreground": "#76EEC6"
       }
     },
 

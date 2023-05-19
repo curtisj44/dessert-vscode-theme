@@ -1,0 +1,45 @@
+{# https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks #}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    {% include "helpers/head.njk" %}
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles/home.css" />
+  </head>
+
+  <body>
+    {% include "helpers/page-background.njk" %}
+
+    <header role="banner" class="site-header">
+      {% include "helpers/site-heading.njk" %}
+      <img src="/assets/images/test.png" alt="" />
+    </header>
+
+
+    <main role="main">
+      <section>
+        <h1 class="site-heading">
+          <i class="site-heading__1">
+            The
+            <i class="site-heading__iteration">{{ eventIteration }}</i>
+            Annual
+          </i>
+          <i class="site-heading__2">{{ eventTitlePart1 }}</i>
+          <i class="site-heading__3">{{ eventTitlePart2 }}</i>
+        </h1>
+
+        {% for attire in attireRules %}
+          <h2>{{ attire.year }}</h2>
+
+          <ol>
+            {% for option in attire.options %}
+              <li>
+                {{ option }}
+              </li>
+            {% endfor %}
+          </ol>
+        {% endfor %}
+      </section>
+    </main>
+  </body>
+</html>
