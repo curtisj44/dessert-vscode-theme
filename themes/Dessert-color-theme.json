@@ -640,6 +640,13 @@
         "foreground": "#FA8072"
       }
     },
+    {
+      "name": "string.quoted.double.json",
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "#EEDC82"
+      }
+    },
 
     {
       "name": "invalid",
@@ -820,14 +827,6 @@
       "scope": "storage.type.class.jsdoc",
       "settings": {
         "foreground": "#7CCD7C"
-      }
-    },
-
-    {
-      "name": "string.quoted.double.json",
-      "scope": "string.quoted.double.json",
-      "settings": {
-        "foreground": "#EEDC82"
       }
     },
 
