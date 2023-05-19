@@ -1,0 +1,14 @@
+%strong= item.title
+
+%strong{:class => "code", :id => "message"} Hello, World!
+
+%strong.code#message Hello, World!
+
+.item{:id => "item#{item.id}"}= item.body
+
+#content
+  .left.column
+    %h2 Welcome to our site!
+    %p= print_information
+  .right.column
+    = render :partial => "sidebar"

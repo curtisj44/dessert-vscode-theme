@@ -1,0 +1,20 @@
+<strong><%= item.title %></strong>
+
+<strong class="code" id="message">Hello, World!</strong>
+
+%strong.code#message Hello, World!
+
+<div class='item' id='item<%= item.id %>'>
+  <%= item.body %>
+</div>
+
+<div id='content'>
+  <div class='left column'>
+    <h2>Welcome to our site!</h2>
+    <p><%= print_information %></p>
+  </div>
+  <div class="right column">
+    <%= render :partial => "sidebar" %>
+  </div>
+</div>
+
