@@ -122,6 +122,10 @@ green-grey (custom)
 orange
 #FFA54F
 
+orange-light (custom)
+#eeb681
+[#FFA54F with (SL of HSL) matching yellow: #EEDC82]
+
 orange-grey (custom)
 #b3a598
 
