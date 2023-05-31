@@ -328,6 +328,17 @@
     },
 
     {
+      "name": "meta.function-call entity.name.function (JS/TS)",
+      "scope": [
+        "meta.function-call entity.name.function",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#FFA54F"
+      }
+    },
+
+    {
       "scope": [
         // `{%`, `%}`, `{{`, and `}}` (Nunjucks)
         "entity.tag.tagbraces.nunjucks"
@@ -714,17 +725,6 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#EE799F"
-      }
-    },
-
-    {
-      "name": "meta.function-call entity.name.function",
-      "scope": [
-        "meta.function-call entity.name.function",
-        "variable.other.property"
-      ],
-      "settings": {
-        "foreground": "#FFA54F"
       }
     },
 
