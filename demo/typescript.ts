@@ -1,4 +1,14 @@
 /**
+ * Get the LatestId
+ * @param row row
+ * @param table the table that contains the row data
+ * @return latest id
+ */
+export function getLatestId(row: string, table: Table): string {
+    return getRow(row, table) as string;
+}
+
+/**
  * The following variables are used to calculate the right margin in SLR Hero App Split Button.
  * @param isReadingPanePositionRight - Whether the reading pane is on the right side of the screen.
  * @param shouldShowFolderPanel - Whether the folder panel is shown.
