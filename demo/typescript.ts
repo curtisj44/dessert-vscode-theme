@@ -1,3 +1,17 @@
+/**
+ * The following variables are used to calculate the right margin in SLR Hero App Split Button.
+ * @param isReadingPanePositionRight - Whether the reading pane is on the right side of the screen.
+ * @param shouldShowFolderPanel - Whether the folder panel is shown.
+ * @param listViewWidth - The width of the list view.
+ * @param leftNavWidth - The width of the left nav.
+ */
+export interface HeroAppSplitButtonRightMarginConstants {
+    isReadingPanePositionRight: boolean;
+    shouldShowFolderPane: boolean;
+    listViewWidth: number /* getListViewDimensions().listViewWidth */;
+    leftNavWidth: number;
+}
+
 export interface TerminalQuickFixProvider {
   /**
    * Provides terminal quick fixes
