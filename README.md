@@ -116,8 +116,17 @@ green
 green-light (custom)
 #a5cd7c
 
-green-grey (custom)
+green-grey-1 (custom)
 #a4bda4
+
+green-grey-2 (custom)
+#526652
+
+green-grey-3 (custom)
+#8a998a
+
+green-grey-4 (custom)
+#91998a
 
 orange
 #FFA54F

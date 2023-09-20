@@ -300,7 +300,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#7CCD7C"
+        "foreground": "#526652"
       }
     },
 
@@ -660,6 +660,15 @@
         "foreground": "#FA8072"
       }
     },
+
+    {
+      "name": "Arguments in TS `@` decorator",
+      "scope": ["meta.decorator.tsx string", "meta.decorator.tsx constant"],
+      "settings": {
+        "foreground": "#A5CD7C"
+      }
+    },
+
     {
       "name": "string.quoted.double.json",
       "scope": "string.quoted.double.json",
@@ -714,7 +723,7 @@
         "punctuation.decorator.tsx"
       ],
       "settings": {
-        "foreground": "#BCB8A4"
+        "foreground": "#8A998A"
       }
     },
 
@@ -747,7 +756,7 @@
       "name": "entity.name.type.module",
       "scope": "entity.name.type.module",
       "settings": {
-        "foreground": "#a4bda4"
+        "foreground": "#7CCD7C"
       }
     },
     {
@@ -838,7 +847,11 @@
     },
     {
       "name": "TS `type` or `interface` definition",
-      "scope": ["storage.type.interface", "storage.type.type"],
+      "scope": [
+        "storage.type.interface",
+        "storage.type.type",
+        "storage.type.namespace.ts"
+      ],
       "settings": {
         "foreground": "#A4BDA4"
       }
@@ -848,7 +861,7 @@
       "name": "storage.type.class.jsdoc",
       "scope": "storage.type.class.jsdoc",
       "settings": {
-        "foreground": "#7CCD7C"
+        "foreground": "#8a998a"
       }
     },
 
@@ -1014,7 +1027,7 @@
         "meta.type entity.name.type.alias"
       ],
       "settings": {
-        "foreground": "#76EEC6"
+        "foreground": "#7CCD7C"
       }
     },
 
@@ -1031,9 +1044,9 @@
 
     {
       "name": "variable.other.jsdoc",
-      "scope": "variable.other.jsdoc",
+      "scope": ["variable.other.jsdoc", "variable.other.description.jsdoc"],
       "settings": {
-        "foreground": "#a5cd7c"
+        "foreground": "#91998a"
       }
     },
 
