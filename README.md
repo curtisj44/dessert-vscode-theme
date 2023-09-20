@@ -33,7 +33,7 @@ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
 1. Use correct version of Node: `nvm use`
 
-2. Install `vsce` globally: `npm install vsce -g` (if not already installed)
+2. (If not already installed) Install `vsce` globally: `npm install vsce -g`
 
 3. Make sure working tree is clean: `git status`
 
