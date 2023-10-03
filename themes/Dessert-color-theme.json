@@ -394,11 +394,30 @@
     },
 
     {
-      "name": "Control keywords (JS/TS)",
+      "name": "Conditional Control keywords (JS/TS)",
       "scope": [
         // `if`, `else`, `else if`
-        // "keyword.control.conditional",
+        "keyword.control.conditional"
+      ],
+      "settings": {
+        "foreground": "#BCB8A4"
+      }
+    },
 
+    {
+      "name": "Switch Control keywords (JS/TS)",
+      "scope": [
+        // `switch`, `case`
+        "keyword.control.switch"
+      ],
+      "settings": {
+        "foreground": "#76EEC6"
+      }
+    },
+
+    {
+      "name": "Control keywords (JS/TS)",
+      "scope": [
         // `for`, `break`, `while`
         "keyword.control.loop",
 
@@ -406,7 +425,7 @@
         "keyword.control.trycatch"
       ],
       "settings": {
-        "foreground": "#EEDC82"
+        "foreground": "#BCB8A4"
       }
     },
 
