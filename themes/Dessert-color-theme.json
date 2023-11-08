@@ -466,9 +466,9 @@
     },
 
     {
-      "name": "`return` and `export` keywords (JS/TS)",
+      "name": "`return`, `await`, and `export` keywords (JS/TS)",
       "scope": [
-        // `return`
+        // `return` and `await`
         "keyword.control.flow",
         // `export`
         "keyword.control.export"
@@ -542,13 +542,8 @@
     },
 
     {
-      "name": "`async` and `await` keywords (JS/TS)",
-      "scope": [
-        // `async`
-        "storage.modifier.async",
-        // `await`
-        "meta.block meta.var.expr keyword.control.flow"
-      ],
+      "name": "`async` keywords (JS/TS)",
+      "scope": ["storage.modifier.async"],
       "settings": {
         "foreground": "#BCB8A4"
       }
