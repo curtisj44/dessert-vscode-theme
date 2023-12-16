@@ -684,6 +684,13 @@
     },
 
     {
+      "name": "String in `import` statements",
+      "scope": "meta.import string.quoted",
+      "settings": {
+        "foreground": "#963A46"
+      }
+    },
+    {
       "name": "string.quoted.double.json",
       "scope": "string.quoted.double.json",
       "settings": {
