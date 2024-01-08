@@ -150,6 +150,9 @@ purple (custom)
 red-light
 #FA8072
 
+red-light-2 (custom)
+#f19898 / hsl(0 76% 77%)
+
 red-dark
 #D21932
 

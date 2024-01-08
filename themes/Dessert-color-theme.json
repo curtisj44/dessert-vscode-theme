@@ -448,22 +448,22 @@
       }
     },
 
-    {
-      "name": "import statement keywords",
-      "scope": [
-        // `@import (Sass)
-        "keyword.control.at-rule.import.scss",
-        // `import` (JS/TS)
-        "keyword.control.import",
-        // `as` (JS/TS)
-        "keyword.control.as",
-        // `from` (JS/TS)
-        "keyword.control.from"
-      ],
-      "settings": {
-        "foreground": "#808080"
-      }
-    },
+    // {
+    //   "name": "import statement keywords",
+    //   "scope": [
+    //     // `@import` (Sass)
+    //     "keyword.control.at-rule.import.scss",
+    //     // `import` (JS/TS)
+    //     "keyword.control.import",
+    //     // `as` (JS/TS)
+    //     "keyword.control.as",
+    //     // `from` (JS/TS)
+    //     "keyword.control.from"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#808080"
+    //   }
+    // },
 
     {
       "name": "`return`, `await`, and `export` keywords (JS/TS)",
@@ -685,9 +685,16 @@
 
     {
       "name": "String in `import` statements",
-      "scope": "meta.import string.quoted",
+      "scope": [
+        // Go
+        "string.quoted.double.go entity.name.import.go",
+        // JS, TS
+        "meta.import string.quoted",
+        // SCSS
+        "meta.at-rule.import.scss string.quoted.double.scss"
+      ],
       "settings": {
-        "foreground": "#963A46"
+        "foreground": "#f19898"
       }
     },
     {
