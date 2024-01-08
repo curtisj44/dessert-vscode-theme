@@ -72,8 +72,14 @@ https://codepen.io/curtisj44/pen/NWBogMz
 black-darkest (borders / selected text background)
 #111
 
+black-background-1
+#171717 / hsl(0° 0% 9%)
+
+black-background-2
+#212121 / hsl(0° 0% 13%)
+
 black-dark (main background / active tab)
-#2b2b2b
+#2b2b2b / hsl(0° 0% 17%)
 
 grey-darker (alternate background)
 #363636
