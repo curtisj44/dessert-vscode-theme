@@ -85,8 +85,8 @@
     // "editorIndentGuide.background": "#424242",
     // "editorIndentGuide.activeBackground": "#595959",
 
-    "editorLineNumber.activeForeground": "#C0C0C080",
-    "editorLineNumber.foreground": "#BCB8A433",
+    "editorLineNumber.activeForeground": "#808080",
+    "editorLineNumber.foreground": "#424242",
 
     "editorLink.activeForeground": "#2b91af",
 
@@ -128,8 +128,7 @@
     "editorWidget.background": "#424242",
     "editorWidget.border": "#424242",
 
-    // "editorWhitespace.foreground": "#424242",
-    "editorWhitespace.foreground": "#48483d",
+    "editorWhitespace.foreground": "#424242",
 
     "extensionButton.prominentForeground": "#2b2b2b",
     "extensionButton.prominentBackground": "#ee799f",
