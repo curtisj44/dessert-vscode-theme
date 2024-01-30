@@ -127,10 +127,6 @@
 
     "editorWhitespace.foreground": "#424242",
 
-    "extensionButton.prominentForeground": "#2b2b2b",
-    "extensionButton.prominentBackground": "#ee799f",
-    "extensionButton.prominentHoverBackground": "#2b91af",
-
     "errorForeground": "#2b91af",
 
     // This is now invisible
