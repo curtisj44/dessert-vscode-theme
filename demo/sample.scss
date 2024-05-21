@@ -38,8 +38,13 @@ body {
   font: 10px/1.5em sans-serif;
   font-family: Transylvania, "Times New Roman", sans-serif, monospace;
   height: calc(var(--deathDate) - var(--birthDate));
+
+  &::before,
+  &:after {
+    content: "This is a test";
+  }
 }
-#dracula:before,
+#dracula::before,
 #dracula:after {
   content: "This is a test";
 }
