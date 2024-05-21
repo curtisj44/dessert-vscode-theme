@@ -571,6 +571,17 @@
       }
     },
 
+    {
+      "name": "CSS/SCSS - `&`, pseudo element",
+      "scope": [
+        "entity.name.tag.reference.scss",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+
     // TODO: this doesn't work
     // {
     //   "name": "Sass - `cursor` and `content` properties are incorrectly identified as tag names",
@@ -664,14 +675,6 @@
       "scope": ["keyword.operator.combinator.css", "meta.property-list.scss"],
       "settings": {
         "foreground": "#87CEEB"
-      }
-    },
-
-    {
-      "name": "CSS - pseudo element",
-      "scope": ["entity.other.attribute-name.pseudo-element.css"],
-      "settings": {
-        "foreground": "#2B91AF"
       }
     },
 
