@@ -367,6 +367,14 @@
     },
 
     {
+      "name": "Sass placeholder class selector: `%testName`",
+      "scope": ["entity.other.attribute-name.placeholder.css"],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+
+    {
       "name": "HTML tags",
       "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
       "settings": {

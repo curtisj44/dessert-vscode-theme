@@ -10,7 +10,12 @@
   --background: #fff;
 }
 
+%bodyBase {
+  background: orange;
+}
+
 body {
+  @extend %bodyBase;
   background: #000;
 
   > #container {
