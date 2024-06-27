@@ -549,6 +549,14 @@
     },
 
     {
+      "name": "`extends` in TypeScript",
+      "scope": ["storage.modifier.ts"],
+      "settings": {
+        "foreground": "#8a998a"
+      }
+    },
+
+    {
       "name": "`async` keywords (JS/TS)",
       "scope": ["storage.modifier.async"],
       "settings": {
