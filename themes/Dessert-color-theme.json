@@ -473,6 +473,18 @@
     // },
 
     {
+      "name": "`as` type assertion in a function",
+      "scope": [
+        "meta.arrow keyword.control.as",
+        "meta.function keyword.control.as"
+      ],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#a5cd7c"
+      }
+    },
+
+    {
       "name": "`return`, `await`, and `export` keywords (JS/TS)",
       "scope": [
         // `return` and `await`
