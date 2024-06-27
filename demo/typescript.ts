@@ -5,7 +5,7 @@
  * @return latest id
  */
 export function getLatestId(row: string, table: Table): string {
-    return getRow(row, table) as string;
+  return getRow(row, table) as string;
 }
 
 /**
@@ -15,21 +15,28 @@ export function getLatestId(row: string, table: Table): string {
  * @param listViewWidth - The width of the list view.
  * @param leftNavWidth - The width of the left nav.
  */
-export interface HeroAppSplitButtonRightMarginConstants {
-    isReadingPanePositionRight: boolean;
-    shouldShowFolderPane: boolean;
-    listViewWidth: number /* getListViewDimensions().listViewWidth */;
-    leftNavWidth: number;
+export interface SplitButtonConstants {
+  isReadingPanePositionRight: boolean;
+  shouldShowFolderPane: boolean;
+  listViewWidth: number /* getListViewDimensions().listViewWidth */;
+  leftNavWidth: number;
 }
 
-export interface TerminalQuickFixProvider {
+export interface TerminalQuickFixProvider extends SplitButtonConstants {
   /**
    * Provides terminal quick fixes
    * @param commandMatchResult The command match result for which to provide quick fixes
    * @param token A cancellation token indicating the result is no longer needed
    * @return Terminal quick fix(es) if any
    */
-  provideTerminalQuickFixes(commandMatchResult: TerminalCommandMatchResult, token: CancellationToken): ProviderResult<SingleOrMany<TerminalQuickFixExecuteTerminalCommand | TerminalQuickFixOpener | Command>>;
+  provideTerminalQuickFixes(
+    commandMatchResult: TerminalCommandMatchResult,
+    token: CancellationToken
+  ): ProviderResult<
+    SingleOrMany<
+      TerminalQuickFixExecuteTerminalCommand | TerminalQuickFixOpener | Command
+    >
+  >;
 }
 export class TerminalQuickFixExecuteTerminalCommand {
   /**
