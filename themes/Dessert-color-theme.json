@@ -1104,8 +1104,9 @@
     {
       "name": "TS type/interface object value",
       "scope": [
-        "meta.type.annotation support.type",
-        "meta.return.type support.type"
+        "meta.function support.type",
+        "meta.return.type support.type",
+        "meta.type.annotation support.type"
       ],
       "settings": {
         "foreground": "#a5cd7c"
