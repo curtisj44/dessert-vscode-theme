@@ -552,6 +552,16 @@
     },
     {
       "scope": [
+        // `typeof` used in TypeScript type
+        "meta.type keyword.operator.expression.typeof"
+      ],
+      "settings": {
+        "foreground": "#A5CD7C"
+      }
+    },
+
+    {
+      "scope": [
         // `delete`, `void`, `typeof` in JS/TS
         "keyword.operator.expression"
       ],

@@ -44,6 +44,8 @@ const AnotherComponent = ({
   );
 };
 
+const tooltipContent: React.ComponentProps<typeof Tooltip>["content"] = {};
+
 type TabDefinition = {
   id: number;
 };
