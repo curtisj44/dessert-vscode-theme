@@ -936,10 +936,10 @@
     {
       "name": "Support in CSS/Sass",
       "scope": [
-        // @media argument (ie: `min-width`) in CSS
-        "support.type.css",
-        // @media argument (ie: `min-width`) in Sass
-        "support.type.scss"
+        // `@media` argument (ie: `min-width`) in CSS
+        "source.css support.type",
+        // `@media` argument (ie: `min-width`) in Sass
+        "source.scss support.type"
       ],
       "settings": {
         "foreground": "#2b91af"
