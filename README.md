@@ -12,7 +12,7 @@ A dark color theme for Visual Studio Code.
 
 ### Prerequisites
 
-1. Node >= 20
+1. Node >= 23
 
 ### Getting Started
 
