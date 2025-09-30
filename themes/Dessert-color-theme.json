@@ -32,8 +32,15 @@
     "debugExceptionWidget.border": "#424242",
     "debugToolBar.background": "#424242",
 
-    "diffEditor.insertedTextBackground": "#fa807220",
-    "diffEditor.removedTextBackground": "#2b91af20",
+    // Git Diff Editor
+    "diffEditor.diagonalFill": "#424242",
+    "diffEditor.insertedTextBackground": "#FFEE6214",
+    "diffEditor.insertedLineBackground": "#FFEE6203",
+    "diffEditor.removedTextBackground": "#963A4614",
+    "diffEditor.removedLineBackground": "#963A4603",
+
+    "diffEditorGutter.removedLineBackground": "#963A4612",
+    "diffEditorGutter.insertedLineBackground": "#FFEE6212",
 
     "dropdown.background": "#424242",
     "dropdown.border": "#424242",
