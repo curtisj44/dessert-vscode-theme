@@ -1078,7 +1078,9 @@
       "scope": [
         "meta.type.annotation variable",
         "meta.type.annotation entity",
-        // "meta.type.annotation storage",
+        "meta.type.annotation punctuation",
+        "meta.type.annotation storage",
+        "meta.type.declaration variable",
         "meta.interface variable",
         "meta.interface entity"
         // "meta.interface storage"
@@ -1089,12 +1091,14 @@
     },
     {
       "name": "Value inside TS angle brackets: `<number>`",
-      "scope": ["meta.type.parameters support.type"],
+      "scope": [
+        "meta.type.parameters support.type",
+        "meta.type.annotation punctuation"
+      ],
       "settings": {
         "foreground": "#A4BDA4"
       }
     },
-
     {
       "name": "TS interface/type name",
       "scope": [
@@ -1105,13 +1109,20 @@
         "foreground": "#7CCD7C"
       }
     },
-
+    {
+      "name": "Question mark indicating optional property in TS definition",
+      "scope": ["meta.field.declaration keyword.operator.optional"],
+      "settings": {
+        "foreground": "#7CCD7C"
+      }
+    },
     {
       "name": "TS type/interface object value",
       "scope": [
         "meta.function support.type",
         "meta.return.type support.type",
-        "meta.type.annotation support.type"
+        "meta.type.annotation support.type",
+        "meta.type.annotation string"
       ],
       "settings": {
         "foreground": "#a5cd7c"
