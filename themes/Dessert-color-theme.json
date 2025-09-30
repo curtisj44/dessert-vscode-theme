@@ -892,15 +892,13 @@
     },
 
     {
-      "name": "Punctuation HTML tag '<'",
-      "scope": "punctuation.definition.tag.begin",
-      "settings": {
-        "foreground": "#BCB8A4"
-      }
-    },
-    {
-      "name": "Punctuation HTML tag '>' or '/>'",
-      "scope": "punctuation.definition.tag.end",
+      "name": "Punctuation HTML tag",
+      "scope": [
+        // `<`
+        "punctuation.definition.tag.begin",
+        // `>` or `/>`
+        "punctuation.definition.tag.end"
+      ],
       "settings": {
         "foreground": "#BCB8A4"
       }
