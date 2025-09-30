@@ -1260,6 +1260,17 @@
       "settings": {
         "foreground": "#f00"
       }
+    },
+
+    {
+      "name": "Search Results",
+      "scope": [
+        "meta.resultLinePrefix.lineNumber",
+        "meta.resultLinePrefix punctuation"
+      ],
+      "settings": {
+        "foreground": "#595959"
+      }
     }
   ]
 }
