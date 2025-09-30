@@ -249,9 +249,9 @@
     // "statusBar.noFolderBorder": "#8080807f",
     "statusBar.noFolderForeground": "#212121",
 
-    "statusBarItem.activeBackground": "#2b91af",
+    "statusBarItem.activeBackground": "#2b2b2b",
     "statusBarItem.hoverBackground": "#424242",
-    "statusBarItem.prominentBackground": "#2b91af",
+    "statusBarItem.prominentBackground": "#2b2b2b",
     "statusBarItem.prominentHoverBackground": "#424242",
 
     "tab.activeBackground": "#2b2b2b",
