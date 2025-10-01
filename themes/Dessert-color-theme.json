@@ -5,7 +5,8 @@
   // https://code.visualstudio.com/api/references/theme-color
   "colors": {
     "activityBar.activeBorder": "#212121",
-    "activityBar.activeBackground": "#FF943030",
+    // Should match `list.hoverBackground`
+    "activityBar.activeBackground": "#FFEE6230",
     "activityBar.background": "#212121",
     "activityBar.border": "#111",
     "activityBar.foreground": "#c0c0c0",
@@ -176,6 +177,7 @@
     "list.focusBackground": "#111",
     "list.focusForeground": "#C0C0C0",
     "list.highlightForeground": "#87ceeb",
+    // Should match `activityBar.activeBackground`
     "list.hoverBackground": "#FFEE6230",
     "list.hoverForeground": "#ebebeb",
     "list.inactiveSelectionBackground": "#111",
