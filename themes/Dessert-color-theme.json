@@ -34,14 +34,14 @@
     "debugToolBar.background": "#424242",
 
     // Git Diff Editor
-    "diffEditor.diagonalFill": "#424242",
-    "diffEditor.insertedTextBackground": "#FFEE6214",
+    "diffEditor.diagonalFill": "#111",
+    "diffEditor.insertedTextBackground": "#FFEE6240",
     "diffEditor.insertedLineBackground": "#FFEE6203",
-    "diffEditor.removedTextBackground": "#963A4614",
+    "diffEditor.removedTextBackground": "#963A4640",
     "diffEditor.removedLineBackground": "#963A4603",
 
-    "diffEditorGutter.removedLineBackground": "#963A4612",
-    "diffEditorGutter.insertedLineBackground": "#FFEE6212",
+    "diffEditorGutter.removedLineBackground": "#963A4666",
+    "diffEditorGutter.insertedLineBackground": "#FFEE6266",
 
     "dropdown.background": "#424242",
     "dropdown.border": "#424242",
