@@ -35,8 +35,8 @@
 
     // Git Diff Editor
     "diffEditor.diagonalFill": "#111",
-    "diffEditor.insertedTextBackground": "#FFEE6240",
-    "diffEditor.insertedLineBackground": "#FFEE6203",
+    "diffEditor.insertedTextBackground": "#FFEE620D",
+    "diffEditor.insertedLineBackground": "#FFEE6200",
     "diffEditor.removedTextBackground": "#963A4640",
     "diffEditor.removedLineBackground": "#963A4603",
 
