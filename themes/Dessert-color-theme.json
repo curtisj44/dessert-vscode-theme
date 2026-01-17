@@ -747,13 +747,6 @@
       }
     },
     {
-      "name": "string.quoted.double.json",
-      "scope": "string.quoted.double.json",
-      "settings": {
-        "foreground": "#EEDC82"
-      }
-    },
-    {
       "scope": ["storage.type.variable string"],
       "settings": {
         "foreground": "#C0C0C0"
@@ -980,7 +973,7 @@
       "name": "support.type.property-name.json",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#FFA54F"
+        "foreground": "#87CEEB"
       }
     },
 
@@ -988,7 +981,7 @@
       "name": "meta.structure.dictionary.value.json support.type.property-name.json",
       "scope": "meta.structure.dictionary.value.json support.type.property-name.json",
       "settings": {
-        "foreground": "#87CEEB"
+        "foreground": "#FFA54F"
       }
     },
 
