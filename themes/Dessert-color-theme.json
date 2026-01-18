@@ -1038,6 +1038,14 @@
         "foreground": "#C0C0C0"
       }
     },
+
+    {
+      "name": "Variable in TS return object",
+      "scope": ["meta.return.type.arrow.tsx variable.object.property.tsx"],
+      "settings": {
+        "foreground": "#A4BDA4"
+      }
+    },
     // {
     //   "name": "Variable (JS/TS)",
     //   "scope": ["variable.other.object", "variable.other.property"],

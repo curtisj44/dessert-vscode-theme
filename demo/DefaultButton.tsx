@@ -30,3 +30,10 @@ export class DefaultButton extends React.Component<IButtonProps, {}> {
     );
   }
 }
+
+const getDetails = (): { isFruit: boolean; isHealthy: boolean } => {
+  return {
+    isFruit: true,
+    isHealthy: false,
+  };
+};
