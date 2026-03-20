@@ -47,3 +47,8 @@ export type ButtonProps = Pick<
 };
 
 type GetExample = ExampleProps["getExample"];
+
+export type MoreProps = {
+  text: string;
+  onClick: (isTest: boolean) => void;
+};

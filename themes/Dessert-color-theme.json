@@ -857,6 +857,14 @@
       }
     },
 
+    {
+      "name": "entity.name.function.tsx",
+      "scope": ["meta.type.declaration.tsx entity.name.function.tsx"],
+      "settings": {
+        "foreground": "#A4BDA4"
+      }
+    },
+
     // {
     //   "name": "meta.at-rule.mixin keyword.control.at-rule.mixin.scss",
     //   "scope": [
