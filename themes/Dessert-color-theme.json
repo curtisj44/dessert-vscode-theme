@@ -725,8 +725,21 @@
     },
 
     {
-      "name": "Arguments in TS `@` decorator",
+      "name": "Arguments in TypeScript `@` decorator",
       "scope": ["meta.decorator.tsx string", "meta.decorator.tsx constant"],
+      "settings": {
+        "foreground": "#A5CD7C"
+      }
+    },
+
+    {
+      "name": "Strings in TypeScript parameters",
+      "scope": [
+        "meta.type.parameters.tsx string.quoted.double.tsx",
+        "meta.type.parameters.tsx string.quoted.single.tsx",
+        "meta.type.tuple.tsx string.quoted.double.tsx",
+        "meta.type.tuple.tsx string.quoted.single.tsx"
+      ],
       "settings": {
         "foreground": "#A5CD7C"
       }

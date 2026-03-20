@@ -37,3 +37,13 @@ const getDetails = (): { isFruit: boolean; isHealthy: boolean } => {
     isHealthy: false,
   };
 };
+
+export type ButtonProps = Pick<
+  ExampleProps,
+  "apples" | "bananas" | "oranges"
+> & {
+  getExample: GetExample;
+  onFocus?: React.FocusEventHandler<HTMLButtonElement>;
+};
+
+type GetExample = ExampleProps["getExample"];
