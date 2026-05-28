@@ -52,3 +52,8 @@ export type MoreProps = {
   text: string;
   onClick: (isTest: boolean) => void;
 };
+
+type Tasks = {
+  isTask: boolean;
+  toggleThis: () => void;
+};

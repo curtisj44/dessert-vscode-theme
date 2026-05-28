@@ -31,13 +31,14 @@ export interface TerminalQuickFixProvider extends SplitButtonConstants {
    */
   provideTerminalQuickFixes(
     commandMatchResult: TerminalCommandMatchResult,
-    token: CancellationToken
+    token: CancellationToken,
   ): ProviderResult<
     SingleOrMany<
       TerminalQuickFixExecuteTerminalCommand | TerminalQuickFixOpener | Command
     >
   >;
 }
+
 export class TerminalQuickFixExecuteTerminalCommand {
   /**
    * The terminal command to run
@@ -82,3 +83,8 @@ export namespace window {
    */
   export const onDidExecuteTerminalCommand: Event<TerminalExecutedCommand>;
 }
+
+type Tasks = {
+  isTask: boolean;
+  toggleThis: () => void;
+};
