@@ -16,10 +16,13 @@ A dark color theme for Visual Studio Code.
 
 ### Getting Started
 
-1. Use correct version of Node: `nvm use`
+1. Use correct version of Node:
+   `nvm use`
+
 2. Review instructions in `./vsc-extension-quickstart.md` to enable live preview:
    1. Press `F5` to open a new window with your extension loaded.
    2. Open `File > Preferences > Color Themes` and pick "Dessert"
+
 3. Edit theme defined in `./themes/Dessert-color-theme.json`
 
 <!--
@@ -31,11 +34,14 @@ https://marketplace.visualstudio.com/manage/publishers/curtisj44
 Official instructions:
 https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
-1. Use correct version of Node: `nvm use`
+1. Use correct version of Node:
+   `nvm use`
 
-2. (If not already installed) Install `@vscode/vsce` globally: `npm install @vscode/vsce -g`
+2. (If not already installed) Install `@vscode/vsce` globally:
+   `npm install @vscode/vsce -g`
 
-3. Make sure working tree is clean: `git status`
+3. Make sure working tree is clean:
+   `git status`
 
 4. Publish & version:
    `vsce publish <version>` (where version is: `major`, `minor`, or `patch`)
