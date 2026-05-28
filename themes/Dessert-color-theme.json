@@ -858,12 +858,22 @@
     },
 
     {
-      "name": "entity.name.function.tsx",
-      "scope": ["meta.type.declaration.tsx entity.name.function.tsx"],
+      "name": "entity.name.function.ts",
+      "scope": [
+        "meta.type.declaration.ts entity.name.function.ts",
+        "meta.type.declaration.tsx entity.name.function.tsx"
+      ],
       "settings": {
         "foreground": "#A4BDA4"
       }
     },
+
+    // 	entity.name.function.ts
+    // meta.definition.property.ts
+    // meta.field.declaration.ts
+    // meta.object.type.ts
+    // meta.type.declaration.ts
+    // source.ts
 
     // {
     //   "name": "meta.at-rule.mixin keyword.control.at-rule.mixin.scss",
